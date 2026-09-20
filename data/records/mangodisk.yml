@@ -10,6 +10,8 @@ summary: A cross-platform Tauri desktop app with a Rust core for finding caches,
 sourceDescription: Safety-first disk cleaner and space analyzer for macOS and Windows, with
   duplicate cleanup, app uninstall, startup management, system optimization, and maintenance.
 content: ./content/records/mangodisk.md
+seo:
+  title: MangoDisk – Open Source Disk Cleaner for macOS & Windows
 category: tools
 tags:
   - open-source

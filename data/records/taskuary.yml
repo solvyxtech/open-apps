@@ -6,6 +6,8 @@ description: Taskuary brings email, chat messages, and reports into a local work
   organize tasks and prepare replies, and routes work to agents for the owner to review.
 summary: A React interface backed by FastAPI and SQLite, with connectors, scheduled reports, coding
   CLI sessions, and a review queue for proposed replies and actions.
+seo:
+  title: Taskuary – Open Source AI Work Inbox
 category: productivity
 projectType: real-app
 stack: react

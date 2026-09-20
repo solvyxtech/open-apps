@@ -9,6 +9,8 @@ summary: A Windows workspace for keeping useful WeChat information searchable in
   chat history. The default workflow is read-only and stores normalized messages and briefings in a
   local SQLite database.
 sourceDescription: Local-first Windows WeChat archive and daily briefing workspace
+seo:
+  title: Weiyu – Open Source Local-First WeChat Archive for Windows
 category: productivity
 tags:
   - open-source

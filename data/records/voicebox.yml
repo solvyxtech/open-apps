@@ -10,6 +10,8 @@ summary: A Tauri + FastAPI desktop app that puts the entire voice I/O loop (TTS 
   and WisprFlow, with the unusual twist that a single Qwen3 instance powers refinement, dictation
   cleanup, and per-voice personality rewriting.
 content: ./content/records/voicebox.md
+seo:
+  title: Voicebox – Open Source Local AI Voice Studio
 category: tools
 tags:
   - tauri

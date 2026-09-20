@@ -2,14 +2,16 @@
 /**
  * Home page.
  *
- * Structure: Hero → two lens sections (actively developed / recently
- * added) → StackGrid → CollectionTeaser → CategoryGrid →
- * ContributorsGrid → OriginalCollection → FinalCta.
+ * Structure: Hero → Trending now → StackGrid → CategoryGrid →
+ * CollectionTeaser → Recently added → ContributorsGrid →
+ * OriginalCollection → FinalCta.
  *
- * The two lenses answer the questions a visitor actually has — "is
- * this alive?" and "what's new?" — so they're derived here rather
- * than taken from `getHomePageModel`, whose hot / mature lenses are
- * star-driven and largely echo each other on this directory.
+ * The order follows how people search: what's moving, then by stack,
+ * then by what the app does, then the curated lists. "Trending now"
+ * is the top of the `trending-open-source-apps` collection — same
+ * query, same ranking — so the strip and its "view all" page can
+ * never disagree. Neither lens comes from `getHomePageModel`, whose
+ * hot / mature lenses are star-driven and largely echo each other.
  *
  * All data derives from `data/generated/records.{index,full}.json`
  * and `data/generated/site-config.json`. Nothing here is hardcoded
@@ -29,10 +31,12 @@ import CollectionTeaser from "../components/grove/collection-teaser.astro";
 import {
   getHomePageModel,
   getCollectionTeaserModel,
-  recordsToCollectionEntries,
   loadCollections,
+  seoTitle,
 } from "@grove-dev/astro/server";
-import { applySort } from "@grove-dev/core";
+import { applySort, runCollection } from "@grove-dev/core";
+import { collectionEntries } from "../lib/collection-entries";
+import { HOME_TITLE } from "../lib/seo";
 import type { IndexRecord } from "@grove-dev/core";
 import records from "@grove/generated/records.json";
 import indexPayload from "@grove/generated/records.index.json";
@@ -42,47 +46,49 @@ const home = getHomePageModel(siteConfig);
 const { slug, itemSingular, itemPlural } = home;
 const { seo } = home;
 
-// ── Lens sectioning (Active / New) ──────────────────────────────
-// "Actively developed" sorts on `github.pushedAt`; "recently added"
-// on `curation.reviewedAt`. Records missing the sort key sink to the
-// bottom rather than vanishing, so both lists always fill.
+// ── Collections (teaser + the trending strip) ───────────────────
+const allCollections = await loadCollections(process.cwd());
+const entries = collectionEntries((records as { records: unknown[] }).records, siteConfig);
+const collectionTeaser = getCollectionTeaserModel(allCollections, entries, 3);
+
+// ── Lens sectioning (Trending / New) ────────────────────────────
+const TRENDING_SLUG = "trending-open-source-apps";
 const projects = ((indexPayload as { records: unknown[] }).records as IndexRecord[]).filter(
   (record) => record.kind === "project",
 );
-const activeList = applySort(projects, "recently-updated").slice(0, 6);
+const projectBySlug = new Map<string, IndexRecord>(projects.map((record) => [record.slug, record]));
+const trending = allCollections.find((collection) => collection.slug === TRENDING_SLUG);
+// Without the collection file the strip falls back to last-push order
+// rather than disappearing.
+const trendingList: IndexRecord[] = trending
+  ? runCollection(trending, entries)
+      .entries.flatMap((entry) => projectBySlug.get(entry.slug) ?? [])
+      .slice(0, 6)
+  : applySort(projects, "recently-updated").slice(0, 6);
 // Dedupe so a single record never renders as two cards on one page.
-// The two axes barely overlap here, so this costs the "new" list
-// nothing but the occasional swap for the next-newest record.
-const activeSlugs = new Set(activeList.map((record) => record.slug));
+const trendingSlugs = new Set(trendingList.map((record) => record.slug));
 const newList = applySort(
-  projects.filter((record) => !activeSlugs.has(record.slug)),
+  projects.filter((record) => !trendingSlugs.has(record.slug)),
   "recently-added",
 ).slice(0, 6);
 
 const { stacks, categories } = home;
 
-const { contributors, stats, description } = home;
-
-// ── Featured collections teaser ─────────────────────────────────
-const allCollections = await loadCollections(process.cwd());
-const teaserEntries = recordsToCollectionEntries(
-  (records as { records: unknown[] }).records as never,
-  siteConfig,
-);
-const collectionTeaser = getCollectionTeaserModel(allCollections, teaserEntries, 3);
+const { contributors, stats } = home;
+const Plural = itemPlural.charAt(0).toUpperCase() + itemPlural.slice(1);
 ---
 
 <BaseLayout
-  title={seo.title}
+  title={seoTitle(HOME_TITLE, siteConfig.name)}
   description={seo.description}
   image={seo.image}
   jsonLd={seo.jsonLd}
   site={siteConfig}
 >
   <Hero
-    name={`Find ${itemPlural} you can actually`}
-    tagline="run, study, and contribute to."
-    description={description}
+    name={`Discover real open-source ${itemPlural}`}
+    tagline="and production codebases."
+    description={`Browse ${itemPlural} you can run, study and contribute to — organized by stack, category, platform, activity and maturity.`}
     eyebrow={`A directory of real curated ${itemPlural}`}
     stats={{
       totalApps: stats.apps,
@@ -95,7 +101,7 @@ const collectionTeaser = getCollectionTeaserModel(allCollections, teaserEntries,
     searchHref={`/${slug}`}
     searchPlaceholder={`Search ${itemPlural}, stacks, or categories...`}
     quickFilters={[
-      { label: "Actively developed", href: `/${slug}?sort=recently-updated` },
+      { label: "Trending", href: `/collections/${TRENDING_SLUG}/` },
       { label: "Recently added", href: `/${slug}?sort=recently-added` },
       { label: "Most starred", href: `/${slug}?sort=most-starred` },
     ]}
@@ -105,27 +111,15 @@ const collectionTeaser = getCollectionTeaserModel(allCollections, teaserEntries,
   />
 
   <RecordSection
-    id="active"
-    title="Actively developed"
-    description={`${itemPlural.charAt(0).toUpperCase() + itemPlural.slice(1)} with the most recent commits — still being built, fixed, and shipped.`}
-    eyebrow="Active"
-    items={activeList}
+    id="trending"
+    title="Trending now"
+    description={`${Plural} under the most active development right now — ranked by recent commits and releases, not by total stars.`}
+    eyebrow="Trending"
+    items={trendingList}
     limit={6}
     hrefFor={(r) => `/${slug}/${r.slug}`}
-    viewAllHref={`/${slug}?sort=recently-updated`}
-    viewAllLabel={`View all by activity`}
-  />
-
-  <RecordSection
-    id="new"
-    title="Recently added"
-    description={`${itemPlural.charAt(0).toUpperCase() + itemPlural.slice(1)} added to the directory in the last few weeks.`}
-    eyebrow="New"
-    items={newList}
-    limit={6}
-    hrefFor={(r) => `/${slug}/${r.slug}`}
-    viewAllHref={`/${slug}?sort=recently-added`}
-    viewAllLabel={`View all recently added`}
+    viewAllHref={`/collections/${TRENDING_SLUG}/`}
+    viewAllLabel="View all trending"
   />
 
   <StackGrid
@@ -135,16 +129,31 @@ const collectionTeaser = getCollectionTeaserModel(allCollections, teaserEntries,
     itemNoun={{ singular: itemSingular, plural: itemPlural }}
     hrefFor={(stackSlug: string) => `/stacks/${stackSlug}`}
   />
-  <CollectionTeaser
-    model={collectionTeaser}
-    countNoun={{ singular: itemSingular, plural: itemPlural }}
-  />
   <CategoryGrid
     categories={categories}
     pathPrefix={`/${slug}`}
     itemLabelPlural={itemPlural}
     itemNoun={{ singular: itemSingular, plural: itemPlural }}
+    heading="Browse by what they do"
     hrefFor={(categorySlug: string) => `/categories/${categorySlug}`}
+  />
+  <CollectionTeaser
+    model={collectionTeaser}
+    title="Curated collections"
+    description="Lists with a stated rule — what qualifies, what is excluded, and how it is ranked."
+    countNoun={{ singular: itemSingular, plural: itemPlural }}
+  />
+
+  <RecordSection
+    id="new"
+    title="Recently added"
+    description={`${Plural} added to the directory in the last few weeks.`}
+    eyebrow="New"
+    items={newList}
+    limit={6}
+    hrefFor={(r) => `/${slug}/${r.slug}`}
+    viewAllHref={`/${slug}?sort=recently-added`}
+    viewAllLabel={`View all recently added`}
   />
 
   <ContributorsGrid

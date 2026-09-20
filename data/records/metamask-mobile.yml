@@ -10,6 +10,8 @@ summary: The dominant mobile Ethereum wallet in production. React Native on top 
   (KeyringController, TransactionController, AccountsController) and a growing multichain footprint
   (EVM L2s, Solana, Bitcoin, Tron, Stellar).
 sourceDescription: Mobile web browser providing access to websites that use the Ethereum blockchain.
+seo:
+  title: MetaMask Mobile – Open Source Ethereum Wallet
 category: finance
 content: ./content/records/metamask-mobile.md
 tags:

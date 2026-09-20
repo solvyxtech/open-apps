@@ -5,6 +5,8 @@ name: Rockxy
 description: A native macOS HTTP debugging proxy for inspecting HTTPS, API, WebSocket, and GraphQL traffic.
 sourceDescription: Open-source native macOS HTTP debugging proxy — intercept HTTPS, inspect APIs,
   mock responses, debug WebSocket & GraphQL. Community-driven. For developers, by developers.
+seo:
+  title: Rockxy – Open Source HTTP Debugging Proxy for macOS
 category: developer-tools
 projectType: real-app
 stack: ios

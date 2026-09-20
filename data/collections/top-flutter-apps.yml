@@ -13,7 +13,9 @@ editorial:
   selectionNote: |
     Stack is `flutter`. At least 500 GitHub stars. License is detected
     (i.e. not `NOASSERTION` / `OTHER`). Archived and stale records are
-    excluded. Ranked by curation score.
+    excluded. Ranked by adoption (GitHub stars, log scale) multiplied by
+    recent activity (releases, pushes and commits).
 seo:
   index: true
   title: Top Open Source Flutter Apps in 2026
+  description: The most adopted open-source Flutter apps with a verifiable license — production codebases with 500+ stars, ranked by adoption and recent activity.

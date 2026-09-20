@@ -12,7 +12,10 @@ editorial:
   selectionNote: |
     Stack is one of `react-native`, `flutter`, `capacitor`, `kmp` (each
     ships to both iOS and Android from a single codebase). Archived
-    records are excluded. Ranked by curation score.
+    records are excluded. Ranked by adoption
+    (GitHub stars, log scale) multiplied by recent activity (releases,
+    pushes and commits).
 seo:
   index: true
   title: Cross-Platform Open Source Mobile Apps
+  description: Open-source apps that ship to both iOS and Android from one codebase — Flutter, React Native and Kotlin Multiplatform in production.

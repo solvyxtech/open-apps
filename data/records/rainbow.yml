@@ -10,6 +10,8 @@ summary: Rainbow is a React Native mobile wallet that combines Ethereum mainnet 
   and remains actively developed under the rainbow-me organization.
 sourceDescription: 🌈‒ the Ethereum wallet that lives in your pocket.
 content: ./content/records/rainbow.md
+seo:
+  title: Rainbow – Open Source Ethereum Wallet in React Native
 category: finance
 tags:
   - cross-platform

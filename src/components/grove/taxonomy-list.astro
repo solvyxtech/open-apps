@@ -31,6 +31,8 @@ interface Props {
   eyebrow: string;
   /** Display name shown in the heading and intro copy. */
   displayName: string;
+  /** Full H1 override. Default: "{displayName} {itemNoun.plural}". */
+  heading?: string;
   /** Lede copy under the heading. */
   lede: string;
   /**
@@ -54,6 +56,7 @@ interface Props {
 const {
   eyebrow,
   displayName,
+  heading,
   lede,
   itemNoun = { singular: itemLabel(), plural: itemLabelPlural() },
   records,
@@ -68,7 +71,7 @@ const hrefPrefix = backHref.replace(/\/$/, '');
 <section class="mx-auto w-full max-w-container px-5 py-12 sm:px-7 sm:py-16">
   <p class="m-0 text-2xs font-medium uppercase tracking-wider text-ink-500 dark:text-ink-400">{eyebrow}</p>
   <h1 class="m-0 mt-2 text-[1.875rem] font-semibold tracking-tight text-ink-900 sm:text-[2.125rem] dark:text-ink-100">
-    {displayName} {itemNoun.plural}
+    {heading ?? `${displayName} ${itemNoun.plural}`}
   </h1>
   <p class="m-0 mt-3 max-w-2xl text-[0.9375rem] leading-relaxed text-ink-500 dark:text-ink-400">{lede}</p>
 

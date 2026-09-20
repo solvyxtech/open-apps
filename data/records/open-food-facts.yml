@@ -5,6 +5,8 @@ addedAt: 2026-06-07
 description: The mobile companion to Open Food Facts — scan barcodes, decode ingredient lists, and
   contribute new products to the open database.
 sourceDescription: 🤳🥫 The new Open Food Facts mobile application for Android and iOS, crafted with Flutter and Dart
+seo:
+  title: Open Food Facts – Open Source Food Barcode Scanner App
 category: health-and-fitness
 tags:
   - cross-platform

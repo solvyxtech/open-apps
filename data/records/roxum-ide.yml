@@ -9,6 +9,8 @@ summary: Roxum IDE pairs a Rust-backed editor engine (the code_forge package, us
   — file tree, embedded terminal, LSP-driven completions, Git/GitHub auth, and offline GGUF model
   chat.
 sourceDescription: A minimal and powerful IDE/Code editor for Android
+seo:
+  title: Roxum IDE – Open Source Code Editor for Android
 category: developer-tools
 tags:
   - android-code-editor

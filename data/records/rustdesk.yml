@@ -11,6 +11,8 @@ summary: A self-hostable TeamViewer replacement built on a Rust core (video code
 sourceDescription: An open-source remote desktop application designed for self-hosting, as an
   alternative to TeamViewer.
 content: ./content/records/rustdesk.md
+seo:
+  title: RustDesk – Open Source Remote Desktop & TeamViewer Alternative
 category: developer-tools
 tags:
   - android

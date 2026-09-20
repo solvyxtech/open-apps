@@ -11,6 +11,8 @@ summary: A Swift-first audio framework for Apple platforms that pairs an AVFound
   real-time C layer.
 sourceDescription: Audio synthesis, processing, & analysis platform for iOS, macOS and tvOS.
 content: ./content/records/audiokit.md
+seo:
+  title: AudioKit – Open Source Audio Synthesis Framework for iOS
 category: media
 tags:
   - swift

@@ -11,6 +11,8 @@ summary: A community-maintained Flutter app that replaces a spreadsheet-based ne
 sourceDescription: "\"Sossoldi\" is a wealth management / personal finance / Net Worth tracking app,
   made with Flutter."
 content: ./content/records/sossoldi.md
+seo:
+  title: Sossoldi – Open Source Net Worth & Personal Finance Tracker
 category: finance
 tags:
   - dart

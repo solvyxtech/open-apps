@@ -12,6 +12,8 @@ sourceDescription: An open-source, local-first AI journal for iOS and Android th
   and voice fragments into structured timeline cards and organizes knowledge using the P.A.R.A.
   methodology
 content: ./content/records/memex.md
+seo:
+  title: Memex – Open Source Local-First AI Journal
 category: productivity
 tags:
   - cross-platform

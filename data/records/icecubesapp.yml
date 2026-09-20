@@ -7,6 +7,8 @@ description: IceCubesApp is a SwiftUI-native, multi-platform Mastodon client for
 summary: A SwiftUI-native Mastodon client written almost entirely by one maintainer, shipping to
   iPhone, iPad, Mac, and Vision Pro from a single Swift-package workspace with a modern MVVM core.
 sourceDescription: A SwiftUI-native Mastodon client with a focus on performance and Material You theming.
+seo:
+  title: Ice Cubes – Open Source SwiftUI Mastodon Client
 category: social-network
 tags:
   - swift

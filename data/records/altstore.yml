@@ -9,6 +9,8 @@ summary: A sideloading app store for non-jailbroken iOS that uses a desktop comp
   installed apps with the user's own Apple ID and refresh them in the background, so they keep
   working past Apple's 7-day certificate expiration.
 sourceDescription: AltStore is an alternative app store for non-jailbroken iOS devices.
+seo:
+  title: AltStore – Open Source Alternative App Store for iOS
 category: tools
 tags:
   - swift

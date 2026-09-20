@@ -9,6 +9,8 @@ summary: Notesnook encrypts every note on the device with XChaCha20-Poly1305 (vi
   Electron desktop client, and a React Native mobile client that all sync ciphertext-only to a
   remote server.
 sourceDescription: A fully open source & end-to-end encrypted note taking alternative to Evernote.
+seo:
+  title: Notesnook – Open Source Encrypted Evernote Alternative
 category: productivity
 tags:
   - cross-platform

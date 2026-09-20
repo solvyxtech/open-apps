@@ -4,6 +4,8 @@ slug: swiftterm
 addedAt: 2026-06-13
 description: An Xterm/VT100-compatible terminal emulator implemented in Swift for iOS.
 sourceDescription: Xterm/VT100 Terminal emulator in Swift
+seo:
+  title: SwiftTerm – Open Source Terminal Emulator in Swift
 category: tools
 tags:
   - swift

@@ -5,6 +5,8 @@ addedAt: 2026-06-07
 description: Joplin is a free, open source note taking and to-do application. The mobile client is
   built with React Native and supports full sync via Nextcloud, Dropbox, OneDrive, WebDAV, and
   Joplin Cloud.
+seo:
+  title: Joplin – Open Source Note-Taking & To-Do App
 category: productivity
 tags:
   - cross-platform

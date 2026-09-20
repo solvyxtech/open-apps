@@ -8,6 +8,8 @@ description: SwiftUI, Jetpack Compose, Compose for Desktop and Compose for Web b
 sourceDescription: SwiftUI, Jetpack Compose, Compose for Desktop and Compose for Web based Kotlin
   Multiplatform project (using CityBikes API http://api.citybik.es/v2/). Uses Room for local
   persistence
+seo:
+  title: BikeShare – Open Source Kotlin Multiplatform Bike Share App
 category: tools
 tags:
   - swift

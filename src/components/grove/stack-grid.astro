@@ -44,6 +44,10 @@ interface Props {
    * to link to taxonomy detail routes instead.
    */
   hrefFor?: (slug: string) => string;
+  /** Section heading. Default: "Browse by stack". */
+  heading?: string;
+  /** Copy under the heading. */
+  lede?: string;
 }
 
 const {
@@ -56,6 +60,8 @@ const {
   itemNoun = { singular: 'item', plural: 'items' },
   level = 2,
   hrefFor,
+  heading = 'Browse by stack',
+  lede,
 } = Astro.props;
 
 const Heading = `h${level}` as 'h1' | 'h2';
@@ -95,10 +101,10 @@ function statusLabel(s: StackEntry['status']): string | null {
           id="grove-stackgrid-heading"
           class="m-0 mt-1 text-[1.5rem] sm:text-[1.625rem] font-semibold tracking-tight text-ink-900 dark:text-ink-100"
         >
-          Browse by stack
+          {heading}
         </Heading>
         <p class="m-0 max-w-[60ch] text-[0.9375rem] text-ink-500 dark:text-ink-400">
-          Pick a stack to see real {itemLabelPlural} built with it.
+          {lede ?? `Pick a stack to see real ${itemLabelPlural} built with it.`}
         </p>
       </header>
     )}

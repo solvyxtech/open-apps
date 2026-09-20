@@ -13,6 +13,8 @@ summary: One Flutter/Redux client that brings the full invoicing surface — quo
   self-host open-core line in the comparison set but a non-OSI license that the README is silent on.
 sourceDescription: "Invoice Ninja: Desktop/mobile admin portal built with Flutter"
 content: ./content/records/admin-portal.md
+seo:
+  title: Invoice Ninja Admin Portal – Open Source Invoicing Client
 category: finance
 tags:
   - android

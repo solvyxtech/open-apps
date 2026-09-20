@@ -13,6 +13,8 @@ sourceDescription: A 100% Open Source app that tries to make personal finances e
   without ads, without the need for an Internet connection and with a groundbreaking design, that's
   Monekin.
 content: ./content/records/monekin.md
+seo:
+  title: Monekin – Open Source Offline Personal Finance App
 category: finance
 tags:
   - finance-management

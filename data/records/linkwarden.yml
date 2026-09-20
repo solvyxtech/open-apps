@@ -4,6 +4,8 @@ slug: linkwarden
 addedAt: 2026-06-13
 description: Linkwarden is a self-hosted collaborative bookmark manager that captures every saved
   page as a screenshot, PDF, and HTML snapshot to defend against link rot.
+seo:
+  title: Linkwarden – Open Source Self-Hosted Bookmark Manager
 category: productivity
 tags:
   - cross-platform

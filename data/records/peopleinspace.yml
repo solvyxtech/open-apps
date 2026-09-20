@@ -9,6 +9,8 @@ summary: A long-running KMP reference that demonstrates multi-platform architect
 sourceDescription: Kotlin Multiplatform sample with SwiftUI, Jetpack Compose, Compose for Wear,
   Compose for Desktop, and Compose for Web clients along with Ktor backend.
 content: ./content/records/peopleinspace.md
+seo:
+  title: PeopleInSpace – Open Source Kotlin Multiplatform Sample App
 category: tools
 tags:
   - kmm

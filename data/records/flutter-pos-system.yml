@@ -12,6 +12,8 @@ summary: A Flutter point-of-sale app that keeps every byte on the device — ing
   currently shipping on Android with iOS in progress.
 sourceDescription: An open-source Flutter POS system designed for small restaurants and businesses.
 content: ./content/records/flutter-pos-system.md
+seo:
+  title: Flutter POS System – Open Source Restaurant Point of Sale
 category: developer-tools
 tags:
   - android-app

@@ -11,6 +11,8 @@ summary: An open-source messenger built on the Wesh protocol that runs over libp
 sourceDescription: Berty is a secure peer-to-peer messaging app that works with or without internet
   access, cellular data or trust in the network.
 content: ./content/records/berty.md
+seo:
+  title: Berty – Open Source Peer-to-Peer Encrypted Messenger
 category: communication
 tags:
   - cross-platform

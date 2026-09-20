@@ -3,32 +3,39 @@ import siteConfig from '@grove/generated/site-config.json';
 import { getTaxonomyPageModel, itemLabelPlural } from '@grove-dev/astro/server';
 import TaxonomyList from '../../components/grove/taxonomy-list.astro';
 import BaseLayout from '../../layouts/base-layout.astro';
+import { taxonomyDescription, taxonomyHeading, taxonomyTitle, type TaxonomyTerm } from '../../lib/seo';
 
 export function getStaticPaths() {
   const stacks = siteConfig.taxonomy?.stacks ?? [];
-  return stacks.map(({ id, name }) => ({
-    params: { name: id },
-    props: { displayName: name },
+  // The whole term travels as a prop: `seoTitle` / `heading` /
+  // `description` in `data/taxonomy/stacks.yml` are editorial overrides.
+  return stacks.map((term) => ({
+    params: { name: term.id },
+    props: { displayName: term.name, term: term as TaxonomyTerm },
   }));
 }
 
-const { displayName } = Astro.props;
+const { displayName, term } = Astro.props;
 const name = Astro.params.name;
 const model = getTaxonomyPageModel('stacks', name, displayName, siteConfig);
+const plural = itemLabelPlural();
+const description = taxonomyDescription('stacks', term, plural);
 ---
 
 <BaseLayout
-  title={model.seo.title}
-  description={model.seo.description}
+  title={taxonomyTitle(term, plural, siteConfig.name)}
+  description={description}
   image={model.seo.image}
   imageAlt={model.seo.imageAlt}
   jsonLd={model.seo.jsonLd}
   site={siteConfig}
+  noindex={model.records.length === 0}
 >
   <TaxonomyList
     eyebrow="Stack"
     displayName={displayName}
-    lede={`Browse open-source ${itemLabelPlural()} in this directory built with ${displayName}.`}
+    heading={taxonomyHeading(term, plural)}
+    lede={description}
     records={model.records}
   />
 </BaseLayout>

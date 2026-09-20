@@ -5,6 +5,8 @@ name: Shieldxy
 description: An auditable macOS application firewall and connection monitor with explicit local
   network controls.
 sourceDescription: Open-source, auditable application firewall and connection monitor for macOS.
+seo:
+  title: Shieldxy – Open Source Application Firewall for macOS
 category: tools
 projectType: real-app
 stack: ios
