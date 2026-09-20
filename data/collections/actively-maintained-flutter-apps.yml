@@ -16,3 +16,4 @@ editorial:
 seo:
   index: true
   title: Actively Maintained Open Source Flutter Apps
+  description: Open-source Flutter apps with a push or release in the last six months, ranked by recent development activity. Living codebases worth studying.

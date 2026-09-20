@@ -1,0 +1,25 @@
+slug: trending-open-source-apps
+kind: generated
+title: Trending Open Source Apps
+description: Open-source apps under the most active development right now — ranked by recent commits, releases and pushes, not by total stars.
+query:
+  excludeStatuses: [archived, stale, inactive]
+  minStars: 100
+ranking:
+  preset: active
+editorial:
+  lastReviewedAt: "2026-09-20"
+  selectionNote: |
+    Every app in the directory with at least 100 GitHub stars, excluding
+    archived, stale, and inactive records. Ranked by recent development
+    activity: 70% activity score — how recently it shipped a release,
+    how recently code was pushed, and, where commit history is synced,
+    the share of its last 100 commits made in the past three months —
+    and 30% recency of the last push over a year. This is not a
+    star-growth ranking — star history is not tracked yet, so a large,
+    quiet project will rank below a smaller one that is shipping weekly.
+    Refreshed by the weekly GitHub metadata sync.
+seo:
+  index: true
+  title: Trending Open Source Apps – Most Active Projects Right Now
+  description: The open-source apps under the most active development right now, ranked by recent commits and releases. Real codebases you can run, study and contribute to.

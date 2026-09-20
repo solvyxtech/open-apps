@@ -13,7 +13,10 @@ editorial:
   selectionNote: |
     Stack is `ios`. At least 1,000 GitHub stars. License is detected
     (i.e. not `NOASSERTION` / `OTHER`). Archived and stale records are
-    excluded. Ranked by curation score.
+    excluded. Ranked by adoption
+    (GitHub stars, log scale) multiplied by recent activity (releases,
+    pushes and commits).
 seo:
   index: true
   title: Top Open Source iOS Apps in 2026
+  description: The most adopted open-source native iOS apps — Swift and Objective-C codebases with 1,000+ stars and a verifiable license.
