@@ -24,6 +24,8 @@ All fields are **optional** unless otherwise noted.
 | `description` | string | human | One-sentence curator-written summary of what the app does. |
 | `summary` | string | human | **NEW (0.5.0):** Editorial lead paragraph. When set, rendered as the first paragraph on the detail page; otherwise falls back to `description`. Allows curators to write a more expressive introduction distinct from the brief one-liner. |
 | `sourceDescription` | string | human | **NEW (0.5.0):** Preserved original description, typically from the project's README or GitHub repository description. When present and distinct from `summary`, rendered as a secondary "From the project's README:" paragraph on the detail page. Mechanically backfilled from `github.repository.description` where available. |
+| `seo.title` | string | human | The page's search title, written as `{Name} – Open Source {what it is}` (e.g. `Twenty – Open Source CRM & Salesforce Alternative`). Used verbatim as `<title>`, so keep it under 65 characters and unique. See *Search titles* in `CONTRIBUTING.md`. When missing, the page falls back to `{Name} – Open Source {Category} App Built with {Stack}`. |
+| `seo.description` | string | human | Optional meta description override. Only needed when neither `summary` nor `description` reads well as a search snippet. |
 | `category` | string | human | Single category ID (e.g., `tools`, `productivity`). Must exist in `data/taxonomy/categories.yml`. |
 | `tags` | array of strings | human | Free-form tags/keywords (e.g., `["cross-platform", "offline-first"]`). Tag IDs should be curated against `data/taxonomy/topics.yml` to avoid spam. |
 | `projectType` | string | human | Maturity indicator; typically `real-app` or `experiment`. |
@@ -100,6 +102,8 @@ Edit these fields directly in pull requests:
 ## Taxonomy Reference
 
 Tags, platforms, categories, and licenses in records must exist in the corresponding taxonomy files.
+
+A stack or category term can carry its own search copy — `seoTitle` (`<title>`), `heading` (H1) and `description` (lede + meta description). Without them the page uses `Open Source {name} Apps`.
 
 ### Categories
 Defined in `data/taxonomy/categories.yml`:

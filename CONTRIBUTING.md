@@ -43,6 +43,21 @@ malware, copyright, and takedown concerns should follow `SECURITY.md`.
 - Do not add a new taxonomy value for a single synonym; reuse an existing
   controlled value when it describes the project accurately.
 
+## Search titles
+
+Every record carries a `seo.title` — the line people see in search
+results. People search for what an app *is* ("open source CRM"), not for
+its category, so:
+
+- Write `{Name} – Open Source {what it is}`, under 65 characters:
+  `Habo – Open Source Privacy-First Habit Tracker`.
+- Use the name people know (`Kodi`, not `xbmc`).
+- Say "{X} Alternative" only when the project describes itself that way
+  in its own README or repository description.
+- Name the stack or platform when that is what makes the app worth
+  finding: `Hacki – Open Source Hacker News Client Built with Flutter`.
+- One plain phrase. No keyword lists, no "best", no year.
+
 ## Local checks
 
 ```sh
@@ -50,6 +65,11 @@ corepack enable
 pnpm install
 pnpm exec grove check
 pnpm build
+pnpm seo:check
 ```
+
+`seo:check` reads the built site and fails on duplicate or missing titles
+and descriptions, wrong canonicals, and pages whose `noindex` disagrees
+with the sitemap.
 
 By participating, you agree to the [Code of Conduct](./CODE_OF_CONDUCT.md).
