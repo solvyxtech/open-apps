@@ -10,6 +10,7 @@ import {
   getTaxonomyIndexSeo,
   itemLabel,
   itemLabelPlural,
+  seoTitle,
 } from '@grove-dev/astro/server';
 
 import CategoryGrid from '../../components/grove/category-grid.astro';
@@ -19,11 +20,14 @@ const slug = siteConfig.blueprintConfig?.routeSlug ?? 'projects';
 const { categories } = getTaxonomyIndexModel();
 const itemNoun = { singular: itemLabel(), plural: itemLabelPlural() };
 const seo = getTaxonomyIndexSeo('categories', siteConfig);
+const title = seoTitle('Open Source Apps by Category', siteConfig.name);
+const description =
+  'Browse open-source apps by what they do — productivity, finance, developer tools, business, media and more. Every app links to source code you can inspect.';
 ---
 
 <BaseLayout
-  title={seo.title}
-  description={seo.description}
+  title={title}
+  description={description}
   image={seo.image}
   jsonLd={seo.jsonLd}
   site={siteConfig}
@@ -34,6 +38,8 @@ const seo = getTaxonomyIndexSeo('categories', siteConfig);
     itemLabelPlural={itemLabelPlural()}
     itemNoun={itemNoun}
     level={1}
+    heading="Open source apps by category"
+    lede="Find open-source apps by what they do, not by which stack they use."
     hrefFor={(categorySlug: string) => `/categories/${categorySlug}`}
   />
 </BaseLayout>

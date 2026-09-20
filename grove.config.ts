@@ -1,14 +1,14 @@
 import { defineConfig } from "@grove-dev/core";
 
-/** Open Apps is a Grove-powered directory of production open-source apps. */
+/** Open App Scout is a Grove-powered directory of production open-source apps. */
 export default defineConfig({
   blueprint: "project-directory",
 
   site: {
-    name: "Open Apps",
-    tagline: "Discover real open-source apps and the stacks behind them.",
+    name: "Open App Scout",
+    tagline: "Open-source apps and production codebases to run, study and learn from.",
     description:
-      "A searchable directory of real open-source applications, organized by stack, category, platform, activity, and maturity.",
+      "Discover real open-source apps built with Flutter, React Native, Swift, React, Tauri and more. Browse production codebases by stack, category and license.",
     url: "https://openappscout.com",
     repoUrl: "https://github.com/tortuvshin/open-apps",
     // Both files carry their own `prefers-color-scheme` swap: an SVG
@@ -63,7 +63,7 @@ export default defineConfig({
         ],
       },
     ],
-    copyright: "Open Apps contributors",
+    copyright: "Open App Scout contributors",
     license: "Code is MIT licensed. The legacy seed collection remains CC0.",
   },
 
@@ -115,6 +115,11 @@ export default defineConfig({
         path: "/collections/top-flutter-apps/",
         type: "collection",
         label: "Top Flutter Apps collection",
+      },
+      {
+        path: "/collections/trending-open-source-apps/",
+        type: "collection",
+        label: "Trending collection",
       },
       { path: "/apps/immich/", type: "record", label: "Record detail" },
       { path: "/about/", type: "content", label: "About page" },

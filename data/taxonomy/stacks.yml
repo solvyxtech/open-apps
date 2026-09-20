@@ -1,23 +1,37 @@
+# Optional per-stack search copy, read by `src/pages/stacks/[name].astro`:
+#   seoTitle     <title> override        (default: the heading)
+#   heading      H1 override             (default: "Open Source {name} Apps")
+#   description  lede + meta description (default: a generic stack sentence)
 - id: flutter
   name: Flutter
+  seoTitle: Open Source Flutter Apps – Real Production Projects
+  description: Browse production Flutter apps with public source code. Study architecture, packages, activity, releases and real-world implementation patterns.
   family: cross-platform
   languages: [dart]
   platforms: [ios, android, web, macos, windows, linux]
 
 - id: react-native
   name: React Native
+  seoTitle: Open Source React Native Apps – Production Codebases
+  description: Browse production React Native apps with public source code. See how real teams structure navigation, state, native modules and releases.
   family: cross-platform
   languages: [typescript, javascript]
   platforms: [ios, android]
 
 - id: ios
   name: Native iOS
+  seoTitle: Open Source iOS Apps Built with Swift
+  heading: Open Source Native iOS Apps
+  description: Browse native iOS apps with public source code, written in Swift and Objective-C. Study real SwiftUI and UIKit codebases you can build and run.
   family: native
   languages: [swift, objective-c]
   platforms: [ios]
 
 - id: android
   name: Native Android
+  seoTitle: Open Source Android Apps Built with Kotlin
+  heading: Open Source Native Android Apps
+  description: Browse native Android apps with public source code, written in Kotlin and Java. Study real production codebases you can build and run.
   family: native
   languages: [kotlin, java]
   platforms: [android]
@@ -36,18 +50,23 @@
 
 - id: tauri
   name: Tauri
+  seoTitle: Open Source Tauri Apps – Rust Desktop Codebases
+  description: Browse open-source desktop apps built with Tauri and Rust. Compare real codebases for macOS, Windows and Linux by activity, license and maturity.
   family: cross-platform
   languages: [rust, typescript, javascript]
   platforms: [macos, windows, linux]
 
 - id: react
   name: React (web)
+  heading: Open Source React Web Apps
+  description: Browse open-source web apps built with React and TypeScript. Production codebases you can self-host, study and contribute to.
   family: web
   languages: [typescript, javascript]
   platforms: [web]
 
 - id: svelte
   name: Svelte (web)
+  heading: Open Source Svelte Web Apps
   family: web
   languages: [typescript, javascript]
   platforms: [web]

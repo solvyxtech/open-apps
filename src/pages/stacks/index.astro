@@ -10,6 +10,7 @@ import {
   getTaxonomyIndexSeo,
   itemLabel,
   itemLabelPlural,
+  seoTitle,
 } from '@grove-dev/astro/server';
 import StackGrid from '../../components/grove/stack-grid.astro';
 import BaseLayout from '../../layouts/base-layout.astro';
@@ -20,11 +21,14 @@ const slug = siteConfig.blueprintConfig?.routeSlug ?? 'projects';
 const { stacks } = getTaxonomyIndexModel();
 const itemNoun = { singular: itemLabel(), plural: itemLabelPlural() };
 const seo = getTaxonomyIndexSeo('stacks', siteConfig);
+const title = seoTitle('Open Source Apps by Stack', siteConfig.name);
+const description =
+  'Browse open-source apps by the stack they are built with — Flutter, React Native, native iOS, Tauri, React and more. Codebases you can run and study.';
 ---
 
 <BaseLayout
-  title={seo.title}
-  description={seo.description}
+  title={title}
+  description={description}
   image={seo.image}
   jsonLd={seo.jsonLd}
   site={siteConfig}
@@ -35,6 +39,8 @@ const seo = getTaxonomyIndexSeo('stacks', siteConfig);
     itemLabelPlural={itemLabelPlural()}
     itemNoun={itemNoun}
     level={1}
+    heading="Open source apps by stack"
+    lede="Pick a stack to see real, production apps built with it — with source code you can run and study."
     hrefFor={(stackSlug: string) => `/stacks/${stackSlug}`}
   />
 </BaseLayout>

@@ -1,17 +1,27 @@
+# Optional per-category search copy, read by `src/pages/categories/[name].astro`:
+#   seoTitle     <title> override        (default: the heading)
+#   heading      H1 override             (default: "Open Source {name} Apps")
+#   description  lede + meta description (default: a generic category sentence)
 - id: productivity
   name: Productivity
+  description: Discover open-source task managers, note apps, calendars, writing tools and productivity software with source code you can inspect and learn from.
 
 - id: finance
   name: Finance
+  seoTitle: Open Source Finance Apps & Personal Finance Software
+  description: Discover open-source budgeting apps, expense trackers, wallets and personal finance software with source code you can inspect and self-host.
 
 - id: education
   name: Education
 
 - id: tools
   name: Tools
+  heading: Open Source Utility Apps & Tools
 
 - id: developer-tools
   name: Developer Tools
+  heading: Open Source Developer Tools
+  description: Discover open-source developer tools — API clients, IDEs, database and DevOps apps — with production codebases you can run, study and extend.
 
 - id: communication
   name: Communication
@@ -21,9 +31,13 @@
 
 - id: business
   name: Business
+  seoTitle: Open Source Business Software & SaaS Apps
+  heading: Open Source Business Software
+  description: Discover open-source CRMs, point-of-sale systems, invoicing and other business software you can self-host, with source code you can inspect.
 
 - id: games
   name: Games
+  heading: Open Source Games
 
 - id: media
   name: Media
@@ -39,6 +53,7 @@
 
 - id: news
   name: News and Magazine
+  heading: Open Source News & Reader Apps
 
 - id: travel
   name: Travel

@@ -31,6 +31,10 @@ interface Props {
   level?: 1 | 2;
   /** Card link builder (defaults to browse filtered by category). */
   hrefFor?: (slug: string) => string;
+  /** Section heading. Default: "Browse by category". */
+  heading?: string;
+  /** Copy under the heading. */
+  lede?: string;
 }
 
 const {
@@ -42,6 +46,8 @@ const {
   itemNoun = { singular: 'item', plural: 'items' },
   level = 2,
   hrefFor,
+  heading = 'Browse by category',
+  lede,
 } = Astro.props;
 
 const Heading: 'h1' | 'h2' = level === 1 ? 'h1' : 'h2';
@@ -68,10 +74,10 @@ function buildHref(slug: string): string {
           id="grove-categorygrid-heading"
           class="m-0 mt-1 text-[1.5rem] sm:text-[1.625rem] font-semibold tracking-tight text-ink-900 dark:text-ink-100"
         >
-          Browse by category
+          {heading}
         </Heading>
         <p class="m-0 max-w-[60ch] text-[0.9375rem] text-ink-500 dark:text-ink-400">
-          Find {itemLabelPlural} by what they do, not by which stack they use.
+          {lede ?? `Find ${itemLabelPlural} by what they do, not by which stack they use.`}
         </p>
       </header>
     )}

@@ -24,6 +24,7 @@ const model = getTaxonomyPageModel('licenses', name, displayName, siteConfig);
   imageAlt={model.seo.imageAlt}
   jsonLd={model.seo.jsonLd}
   site={siteConfig}
+  noindex={model.records.length === 0}
 >
   <TaxonomyList
     eyebrow="License"
