@@ -10,6 +10,8 @@ summary: A cross-platform JavaScript/Electron point-of-sale app for retail shops
 sourceDescription: Free offline-first open source POS and billing software for retail and
   restaurants. AGPL-3.0-only source; packages include separately licensed components.
 content: ./content/records/posnic-pos.md
+seo:
+  title: Posnic POS – Open Source POS & Billing Software
 category: business
 tags:
   - open-source

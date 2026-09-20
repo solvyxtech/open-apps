@@ -10,6 +10,8 @@ summary: An open-source Windows and macOS writing workspace for authors who want
   for local models.
 sourceDescription: AI-assisted novel-writing desktop app for Windows and macOS, with Ollama and DSH plugin support.
 content: ./content/records/ai-novel-writer.md
+seo:
+  title: AI Novel Writer – Open Source AI Writing App for Authors
 category: productivity
 tags:
   - open-source

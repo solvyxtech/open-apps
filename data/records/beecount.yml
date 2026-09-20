@@ -14,6 +14,8 @@ summary: Flutter + Riverpod + Drift ledger app whose sync layer is a swappable p
 sourceDescription: Privacy-first cross-platform expense tracker with self-hostable cloud sync
   (BeeCount Cloud, iCloud, Supabase, WebDAV, S3) and offline-first design
 content: ./content/records/BeeCount.md
+seo:
+  title: BeeCount – Open Source Expense Tracker with Self-Hosted Sync
 category: finance
 tags:
   - cross-platform

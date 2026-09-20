@@ -3,6 +3,8 @@ name: BlueWallet
 slug: bluewallet
 addedAt: 2026-06-13
 description: Bitcoin wallet for iOS & Android. Built with React Native.
+seo:
+  title: BlueWallet – Open Source Bitcoin & Lightning Wallet
 category: finance
 tags:
   - cross-platform

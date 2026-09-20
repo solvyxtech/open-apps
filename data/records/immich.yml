@@ -3,6 +3,8 @@ name: Immich
 slug: immich
 addedAt: 2026-06-07
 description: Self-hosted photo and video backup solution directly from your mobile phone
+seo:
+  title: Immich – Open Source Self-Hosted Photo & Video Backup
 category: tools
 tags:
   - cross-platform

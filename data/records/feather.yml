@@ -6,6 +6,8 @@ description: Free on-device iOS/iPadOS application manager/installer, using cert
   Apple Developer Program.
 sourceDescription: Free on-device iOS/iPadOS application manager/installer, using certificates part
   of the Apple Developer Program.
+seo:
+  title: Feather – Open Source iOS App Manager & Installer
 category: productivity
 tags:
   - esign

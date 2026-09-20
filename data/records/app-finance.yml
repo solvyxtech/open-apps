@@ -10,6 +10,8 @@ summary: An ad-free, inclusive personal finance manager written in Flutter with 
   over WebDAV or peer-to-peer channels.
 sourceDescription: Fingrom -- open-source platform-agnostic financial accounting application
 content: ./content/records/app-finance.md
+seo:
+  title: Fingrom – Open Source Personal Finance & Accounting App
 category: finance
 tags:
   - accounting

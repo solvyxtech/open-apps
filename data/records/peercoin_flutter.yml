@@ -11,6 +11,8 @@ summary: A reference open-source Peercoin wallet that pairs BIP-39 mnemonic seed
   AGPL-3.0, but does not perform on-chain proof-of-stake minting despite Peercoin being a PoS chain.
 sourceDescription: Light Peercoin wallet written in Flutter, deployable on Android, iOS and Web.
 content: ./content/records/peercoin_flutter.md
+seo:
+  title: Peercoin Flutter – Open Source Peercoin Wallet
 category: finance
 tags:
   - android

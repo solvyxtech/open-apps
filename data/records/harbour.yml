@@ -4,6 +4,8 @@ slug: harbour
 addedAt: 2026-06-13
 description: Docker/Portainer management app for iOS, iPadOS and macOS.
 sourceDescription: Docker/Portainer management app for iOS, iPadOS and macOS.
+seo:
+  title: Harbour – Open Source Docker & Portainer App for iOS
 category: productivity
 tags:
   - docker-client

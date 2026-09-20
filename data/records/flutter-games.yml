@@ -4,6 +4,8 @@ slug: flutter-games
 addedAt: 2026-06-07
 description: Flutter app for purchasing and renting games
 sourceDescription: "Flutter app for purchasing and renting games. "
+seo:
+  title: Flutter Games – Open Source Game Shopping App in Flutter
 category: shopping
 tags:
   - cross-platform

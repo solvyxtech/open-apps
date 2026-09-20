@@ -13,6 +13,8 @@ summary: "A portable design runtime that decouples model and delivery: the artif
 sourceDescription: The open-source Claude Design alternative — a local-first desktop app that turns
   any coding agent CLI into a design engine.
 content: ./content/records/open-design.md
+seo:
+  title: OpenDesign – Open Source Claude Design Alternative
 category: developer-tools
 tags:
   - open-source

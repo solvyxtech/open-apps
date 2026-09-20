@@ -8,6 +8,8 @@ summary: A TypeScript codebase spanning React Native, browser-extension, Astro, 
   Worker clients, built around client-side encrypted vault sync and optional trusted-device
   enrollment approval.
 sourceDescription: monorepo for Authier password manager
+seo:
+  title: Authier – Open Source Password Manager with Encrypted Sync
 category: productivity
 tags:
   - open-source

@@ -4,6 +4,8 @@ slug: blink-comparison
 addedAt: 2026-06-07
 description: Simplifies comparing photos of tamper-evident seals and patterns using your eyes
 sourceDescription: Simplifies comparing photos of tamper-evident seals and patterns using your eyes
+seo:
+  title: Blink Comparison – Open Source Tamper-Evident Seal Checker
 category: tools
 tags:
   - cross-platform

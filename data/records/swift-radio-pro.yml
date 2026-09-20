@@ -11,6 +11,8 @@ summary: A long-standing open-source iOS radio app template that demonstrates th
   shipped product.
 sourceDescription: A professional radio station app for iOS with streaming, favorites, and live metadata.
 content: ./content/records/swift-radio-pro.md
+seo:
+  title: Swift Radio Pro – Open Source iOS Radio Station App
 category: media
 tags:
   - swift

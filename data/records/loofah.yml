@@ -9,6 +9,8 @@ summary: A Tauri/Rust desktop app and CLI with no account, backend, telemetry, o
   to agents.
 sourceDescription: Free, open-source meeting notes for macOS with private on-device transcription,
   Markdown storage, and optional bring-your-own AI—no accounts, subscriptions, or telemetry.
+seo:
+  title: Loofah – Open Source Meeting Notes App for macOS
 category: productivity
 tags:
   - open-source

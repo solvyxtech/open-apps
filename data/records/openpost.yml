@@ -4,6 +4,8 @@ slug: openpost
 addedAt: 2026-09-12
 description: Self-hosted social publishing app for preparing, reviewing, scheduling, and tracking
   posts across several networks.
+seo:
+  title: OpenPost – Open Source Self-Hosted Social Media Scheduler
 category: business
 tags:
   - content-creation

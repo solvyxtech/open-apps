@@ -9,6 +9,8 @@ summary: A Rust and Flutter remote-control app derived from RustDesk that delibe
   of direct connections over an existing private network.
 sourceDescription: LAN-only remote desktop based on RustDesk.
 content: ./content/records/subnetdesk.md
+seo:
+  title: SubnetDesk – Open Source LAN-Only Remote Desktop
 category: tools
 tags:
   - remote-desktop

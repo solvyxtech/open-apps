@@ -5,6 +5,8 @@ addedAt: 2026-06-07
 description: A ready-made app template for WooCommerce stores
 sourceDescription: WooCommerce App template that uses Flutter. Integrated to work with WooCommerce
   stores, connect and create an IOS and Android app from Flutter for IOS and Android
+seo:
+  title: Flutter WooCommerce App – Open Source Store App Template
 category: shopping
 tags:
   - cross-platform

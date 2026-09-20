@@ -11,6 +11,8 @@ summary: ServerBox packages a full SSH workstation into a single Flutter app, tu
   terminal and SFTP browser with proactive system telemetry, a watchOS companion, and a small
   server-side agent for background push and home-screen widgets.
 sourceDescription: ServerBox - server status & toolbox
+seo:
+  title: ServerBox – Open Source Server Monitor & SSH Client
 category: tools
 content: ./content/records/flutter_server_box.md
 tags:

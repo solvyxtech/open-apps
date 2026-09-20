@@ -10,6 +10,8 @@ summary: One of the most polished SwiftUI-native apps in open source — a full 
   scraping layer, and Core Data caching, distributed only as a sideloadable IPA.
 sourceDescription: An unofficial E-Hentai App for iOS built with SwiftUI & TCA.
 content: ./content/records/ehpanda.md
+seo:
+  title: EhPanda – Open Source SwiftUI & TCA Gallery App for iOS
 category: media
 tags:
   - swiftui

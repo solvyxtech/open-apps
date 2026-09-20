@@ -10,6 +10,8 @@ summary: An iOS GitHub client demonstrating a full RxSwift + MVVM-C clean-archit
   PRs, and users.
 sourceDescription: GitHub iOS client in RxSwift and MVVM-C clean architecture.
 content: ./content/records/swifthub.md
+seo:
+  title: SwiftHub – Open Source GitHub Client for iOS (RxSwift)
 category: tools
 tags:
   - swift

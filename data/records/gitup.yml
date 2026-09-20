@@ -11,6 +11,8 @@ summary: "A native macOS Git GUI whose edge is the underlying GitUpKit framework
   repo changes."
 sourceDescription: The Git interface you've been missing all your life has finally arrived.
 content: ./content/records/gitup.md
+seo:
+  title: GitUp – Open Source Git Client for macOS
 category: tools
 tags:
   - objc

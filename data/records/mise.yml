@@ -10,6 +10,8 @@ summary: A Flutter macOS client over an embedded PocketBase server, so the whole
   over ESC/POS to any network thermal printer.
 sourceDescription: Free, self-hosted restaurant management. POS, kitchen display, QR table ordering,
   payments and reports.
+seo:
+  title: Mise – Open Source Self-Hosted Restaurant POS
 category: business
 tags:
   - open-source

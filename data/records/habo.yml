@@ -12,6 +12,8 @@ summary: Built by a single maintainer as a minimalist alternative to gamified ha
   sync manager, and a RevenueCat-backed subscription for the hosted sync tier.
 sourceDescription: Privacy-first habit tracker for iOS and Android. E2EE sync, self-hostable, built with Flutter.
 content: ./content/records/habo.md
+seo:
+  title: Habo – Open Source Privacy-First Habit Tracker
 category: productivity
 tags:
   - android

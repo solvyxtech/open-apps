@@ -13,6 +13,8 @@ summary: Airbnb's declarative iOS calendar UI library — a data-driven renderin
 sourceDescription: A declarative, performant, iOS calendar UI component that supports use cases
   ranging from simple date pickers all the way up to fully-featured calendar apps.
 content: ./content/records/horizoncalendar.md
+seo:
+  title: HorizonCalendar – Open Source iOS Calendar UI Library
 category: productivity
 tags:
   - swift

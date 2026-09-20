@@ -12,6 +12,8 @@ summary: A cross-platform writing app for personal journaling rather than fictio
   customized fork of flutter_quill pinned to a specific commit.
 sourceDescription: An open source diary & journal app with over 100k downloads 🪴
 content: ./content/records/storypad.md
+seo:
+  title: StoryPad – Open Source Diary & Journal App
 category: productivity
 tags:
   - cross-platform

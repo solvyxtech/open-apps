@@ -10,6 +10,8 @@ summary: Keybase ties cryptographic identities to public social-media proofs (Tw
   client, chat1 protocol, and KBFS / Stellar libraries remain useful as reference implementations.
 sourceDescription: Keybase Go Library, Client, Service, OS X, iOS, Android, Electron..
 content: ./content/records/keybase.md
+seo:
+  title: Keybase – Open Source Encrypted Chat & Identity App
 category: communication
 tags:
   - cross-platform

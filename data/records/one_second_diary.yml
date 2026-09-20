@@ -10,6 +10,8 @@ summary: A privacy-first Flutter diary that captures one short video per day and
   movie.
 sourceDescription: Minimalist video diary app.
 content: ./content/records/one_second_diary.md
+seo:
+  title: One Second Diary – Open Source Video Diary App
 category: media
 tags:
   - android

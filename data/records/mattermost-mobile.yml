@@ -9,6 +9,8 @@ description: Mattermost Mobile is the official React Native iOS and Android clie
 summary: The production-grade React Native client for Mattermost, the open-source, self-hostable
   Slack alternative used by dev teams and regulated enterprises.
 sourceDescription: Next generation iOS and Android apps for Mattermost in React Native.
+seo:
+  title: Mattermost Mobile – Open Source Slack Alternative App
 category: communication
 content: ./content/records/mattermost-mobile.md
 tags:

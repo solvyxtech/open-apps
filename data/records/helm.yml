@@ -10,6 +10,8 @@ summary: A Flutter macOS app that replaces a folder of single-purpose utilities.
   a squarified treemap explorer, a byte-for-byte duplicate finder, junk cleaning, and APFS snapshot
   thinning.
 sourceDescription: A free, open-source macOS toolkit — fifteen native tools in one window.
+seo:
+  title: Helm – Open Source macOS System Toolkit Built with Flutter
 category: tools
 tags:
   - open-source

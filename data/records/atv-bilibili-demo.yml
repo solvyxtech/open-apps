@@ -8,6 +8,8 @@ summary: Often described as an early SwiftUI tvOS experiment, this Bilibili clie
   demonstrates a substantial UIKit-based Apple TV experience.
 sourceDescription: BiliBili Client Demo for Apple TV (tvOS).
 content: ./content/records/atv-bilibili-demo.md
+seo:
+  title: ATV Bilibili Demo – Open Source Bilibili Client for Apple TV
 category: entertainment
 tags:
   - swift

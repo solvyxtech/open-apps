@@ -4,6 +4,8 @@ slug: utm
 addedAt: 2026-06-13
 description: Run virtual machines on iOS and macOS — Windows, Linux, and retro operating systems.
 sourceDescription: Virtual machines for iOS and macOS
+seo:
+  title: UTM – Open Source Virtual Machines for iOS & macOS
 category: productivity
 tags:
   - apple

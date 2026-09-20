@@ -6,6 +6,8 @@ description: A Flutter mobile workspace for creating or importing projects, cont
   work, inspecting files, and monitoring preview and deployment state from iOS or Android.
 sourceDescription: Official Flutter client for d1v.ai, an AI-native mobile workspace for builders,
   operators, and modern product teams.
+seo:
+  title: d1v.ai Mobile – Open Source Flutter Client for d1v.ai
 category: developer-tools
 projectType: real-app
 stack: flutter

@@ -4,6 +4,8 @@ slug: invoice-ninja
 addedAt: 2026-06-06
 description: Companion app for the Invoice Ninja platform. Invoicing, expenses, time-billing, payments.
 sourceDescription: "Invoice Ninja: Desktop/mobile admin portal built with Flutter"
+seo:
+  title: Invoice Ninja – Open Source Invoicing App Built with Flutter
 category: business
 tags:
   - cross-platform

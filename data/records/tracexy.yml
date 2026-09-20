@@ -6,6 +6,8 @@ description: A native, local-first macOS app for capturing live network traffic 
   PCAP and PCAPNG files.
 sourceDescription: Native, local-first network intelligence for macOS—capture live traffic, inspect
   PCAP/PCAPNG files, and investigate sessions, protocols, processes, flows, and packet evidence.
+seo:
+  title: Tracexy – Open Source Network Traffic Analyzer for macOS
 category: developer-tools
 projectType: real-app
 stack: ios

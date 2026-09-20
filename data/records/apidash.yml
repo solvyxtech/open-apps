@@ -15,6 +15,8 @@ sourceDescription: API Dash is a beautiful AI-powered open-source cross-platform
   API requests, visually inspect responses and generate API integration code. A lightweight
   alternative to postman/insomnia.
 content: ./content/records/apidash.md
+seo:
+  title: API Dash – Open Source API Client Built with Flutter
 category: tools
 tags:
   - api

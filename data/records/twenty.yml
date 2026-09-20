@@ -10,6 +10,8 @@ summary: A modern open-source CRM where the schema, the apps, and the AI agents 
   metadata-driven data model — version-controlled in code, exposed to AI tooling via a native MCP
   server, and runnable as a 4-service Docker stack.
 content: ./content/records/twenty.md
+seo:
+  title: Twenty – Open Source CRM & Salesforce Alternative
 category: business
 tags:
   - ai

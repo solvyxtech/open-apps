@@ -4,6 +4,8 @@ slug: unwrap
 addedAt: 2026-06-13
 description: Learn Swift interactively on your iPhone.
 sourceDescription: Learn Swift interactively on your iPhone.
+seo:
+  title: Unwrap – Open Source App for Learning Swift on iPhone
 category: tools
 tags:
   - swift

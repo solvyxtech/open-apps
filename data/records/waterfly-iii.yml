@@ -11,6 +11,8 @@ summary: An unofficial Flutter client for Firefly III that turns the self-hosted
   transactions from banking apps.
 sourceDescription: Unofficial Android App for Firefly III, a free and open source personal finance manager.
 content: ./content/records/waterfly-iii.md
+seo:
+  title: Waterfly III – Open Source Firefly III Client for Android
 category: finance
 tags:
   - android

@@ -13,6 +13,8 @@ summary: Open-source non-custodial wallet supporting Monero, Bitcoin, Ethereum, 
 sourceDescription: The open source repository for Cake Wallet, a noncustodial multi-currency wallet,
   and Monero.com, a noncustodial Monero-only wallet. Need help? Check out
   https://docs.cakewallet.com
+seo:
+  title: Cake Wallet – Open Source Monero & Multi-Currency Wallet
 category: finance
 tags:
   - android

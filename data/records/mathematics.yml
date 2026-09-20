@@ -7,6 +7,8 @@ description: Generate MCQ PDFs and question papers with answers and quiz mode. U
 sourceDescription: In this application, we can perform some actions like subtraction, addition,
   multiplication, and division. And by selecting any of these, you will receive a PDF with the
   answer key to your MCQ or question!
+seo:
+  title: Mathematics – Open Source Math Practice App in Flutter
 category: education
 tags:
   - cross-platform

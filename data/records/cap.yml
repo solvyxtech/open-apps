@@ -3,6 +3,8 @@ slug: cap
 addedAt: 2026-07-24
 name: Cap
 description: Open source Loom alternative. Beautiful, shareable screen recordings.
+seo:
+  title: Cap – Open Source Loom Alternative for Screen Recording
 category: tools
 projectType: real-app
 stack: tauri

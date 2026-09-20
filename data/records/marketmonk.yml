@@ -10,6 +10,8 @@ summary: MarketMonk is a focused desktop-and-mobile investing companion for peop
   views.
 sourceDescription: Graph stocks on any platform  💹
 content: ./content/records/marketmonk.md
+seo:
+  title: MarketMonk – Open Source Stock Portfolio Tracker
 category: tools
 tags:
   - flutter-app

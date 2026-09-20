@@ -5,6 +5,8 @@ addedAt: 2026-06-07
 description: A Flutter workout and fitness tracker that syncs with the self-hosted wger server,
   supporting routines, exercises, and progress logs.
 sourceDescription: Flutter fitness/workout app for wger
+seo:
+  title: wger – Open Source Fitness & Workout Tracker in Flutter
 category: health-and-fitness
 tags:
   - cross-platform
