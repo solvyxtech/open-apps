@@ -1,5 +1,3 @@
-# One Second Diary
-
 One Second Diary is a Flutter video journal that turns a daily
 recording habit into a shareable "movie of your life." Each day you
 record or upload a clip between one and ten seconds; over months and

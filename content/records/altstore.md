@@ -1,5 +1,3 @@
-# AltStore
-
 AltStore is a sideloading app store for non-jailbroken iOS devices. It
 ships its own signed IPA you install once, then leans on a small macOS /
 Windows / Linux companion called **AltServer** to install and refresh

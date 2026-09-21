@@ -1,5 +1,3 @@
-# OpenDesign
-
 OpenDesign is a portable design runtime. That framing matters more than the
 "open-source Claude Design alternative" line its marketing leads with,
 because Claude Design is not the thing it replaces — Claude Design is one

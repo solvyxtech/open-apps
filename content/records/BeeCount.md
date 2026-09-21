@@ -1,5 +1,3 @@
-# BeeCount
-
 BeeCount (蜜蜂记账) is a local-first bookkeeping app for iOS, Android, and Web
 written in Flutter. Entries live in a Drift/SQLite database on the device,
 and the user chooses between five sync backends without changing a line of

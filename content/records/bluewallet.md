@@ -1,5 +1,3 @@
-# BlueWallet
-
 BlueWallet is a Bitcoin wallet focused on privacy, with first-class
 support for on-chain transactions, Lightning Network payments, and
 hardware-wallet integration.

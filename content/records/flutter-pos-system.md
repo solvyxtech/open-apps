@@ -1,5 +1,3 @@
-# Flutter POS System
-
 Flutter POS System is an offline-first point-of-sale app built in Flutter
 for small restaurants, cafes, and shops. The project targets a single
 phone or tablet running the counter: an owner sets up ingredients and

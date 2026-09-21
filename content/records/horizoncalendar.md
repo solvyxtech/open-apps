@@ -1,5 +1,3 @@
-# HorizonCalendar
-
 HorizonCalendar is Airbnb's declarative iOS calendar UI library — a
 `UIView` subclass whose visible state is a pure function of a single
 `CalendarViewContent` value type, much like a SwiftUI view is a

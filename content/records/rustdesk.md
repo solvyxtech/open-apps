@@ -1,5 +1,3 @@
-# RustDesk
-
 RustDesk is an open-source, self-hostable remote-desktop application
 written in Rust with a Flutter UI, supporting Windows, macOS, Linux, iOS,
 Android, and a web client. It speaks a custom protobuf-over-TCP/UDP

@@ -1,5 +1,3 @@
-# AudioKit
-
 AudioKit is an open-source Swift audio framework for Apple platforms that
 combines a high-level node graph on top of AVFoundation with a C-backed
 DSP engine. It is the default choice for anyone shipping synths,

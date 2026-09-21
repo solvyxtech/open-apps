@@ -1,5 +1,3 @@
-# OnionBrowser
-
 OnionBrowser is the long-standing open-source browser for iOS that
 **routes all traffic through the Tor network**. It is maintained by
 Mike Tigas, was the first Tor-capable browser on the App Store, and

@@ -1,5 +1,3 @@
-# Brethap
-
 Brethap is a meditation timer built in Flutter that layers a fully
 configurable six-phase breathing pattern on top of a stopwatch-style
 session. Every completed session is persisted locally, so the same

@@ -1,5 +1,3 @@
-# Memex
-
 Memex is an open-source, local-first AI journal for iOS and Android. It
 captures life in fragments — text snippets, photos, voice memos, shared
 files — and routes them through a multi-agent skill system that turns

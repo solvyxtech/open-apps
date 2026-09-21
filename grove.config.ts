@@ -25,41 +25,51 @@ export default defineConfig({
 
   nav: [
     { label: "Home", href: "/" },
-    { label: "Browse", href: "/apps" },
-    { label: "Collections", href: "/collections" },
-    { label: "Community", href: "/contributors" },
-    { label: "About", href: "/about" },
+    { label: "Browse", href: "/apps/" },
+    { label: "Collections", href: "/collections/" },
+    { label: "Community", href: "/contributors/" },
+    { label: "About", href: "/about/" },
   ],
 
   footer: {
+    // Grove caps the footer at three columns. The stack, category and
+    // licence pages had no inbound links from anywhere but a record's
+    // sidebar; these columns put them one click from every page.
     columns: [
       {
         heading: "Discover",
         items: [
-          { label: "Browse apps", href: "/apps" },
-          { label: "Contributors", href: "/contributors" },
+          { label: "Browse apps", href: "/apps/" },
+          { label: "Collections", href: "/collections/" },
+          { label: "Stacks", href: "/stacks/" },
+          { label: "Categories", href: "/categories/" },
+          { label: "Contributors", href: "/contributors/" },
         ],
       },
       {
-        heading: "Contribute",
+        heading: "By license",
         items: [
-          { label: "Submit an app", href: "/submit" },
-          {
-            label: "Report an issue",
-            href: "https://github.com/tortuvshin/open-apps/issues",
-            external: true,
-          },
+          { label: "MIT", href: "/licenses/mit/" },
+          { label: "AGPL-3.0", href: "/licenses/agpl-3.0/" },
+          { label: "GPL-3.0", href: "/licenses/gpl-3.0/" },
+          { label: "Apache-2.0", href: "/licenses/apache-2.0/" },
         ],
       },
       {
         heading: "Project",
         items: [
+          { label: "Submit an app", href: "/submit/" },
+          { label: "About", href: "/about/" },
           {
             label: "Source on GitHub",
             href: "https://github.com/tortuvshin/open-apps",
             external: true,
           },
-          { label: "About", href: "/about" },
+          {
+            label: "Report an issue",
+            href: "https://github.com/tortuvshin/open-apps/issues",
+            external: true,
+          },
         ],
       },
     ],

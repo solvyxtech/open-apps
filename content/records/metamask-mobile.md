@@ -1,5 +1,3 @@
-# MetaMask Mobile
-
 MetaMask Mobile is the official Consensys-maintained mobile wallet for the
 Ethereum ecosystem. It is a self-custodial, multi-chain, dapp-capable wallet
 shipped to the App Store and Google Play, and it is the largest production

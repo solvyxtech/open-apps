@@ -1,5 +1,3 @@
-# Immich
-
 Immich is a self-hosted photo and video backup service that runs on your own
 hardware and ships native iOS and Android apps written in Flutter. It does
 on-device-class machine learning on the server — face recognition, CLIP-based

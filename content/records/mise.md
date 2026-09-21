@@ -1,5 +1,3 @@
-# Mise
-
 Mise is a restaurant system that runs on a single Mac inside the venue. It covers the till on the floor, a kitchen display on the pass, QR table ordering for guests, and a back office for the menu and the numbers — with no cloud service in the path.
 
 ## What the codebase includes

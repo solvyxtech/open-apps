@@ -1,5 +1,3 @@
-# Berty
-
 Berty is a peer-to-peer messenger that runs entirely over the **Wesh
 protocol**, an SDK built directly on **libp2p**. There is no central
 server, no account creation, and no phone number requirement — peers

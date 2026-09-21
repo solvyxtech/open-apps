@@ -1,5 +1,3 @@
-# Invoice Ninja Admin Portal
-
 The admin portal is the operator half of [Invoice Ninja](https://invoiceninja.com): the app a
 business owner or bookkeeper opens to raise a quote, convert it to an invoice, chase the payment,
 and reconcile it against a bank feed. It is a pure client — all persistence lives in the separate

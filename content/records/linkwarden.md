@@ -1,5 +1,3 @@
-# Linkwarden
-
 Linkwarden is a self-hosted, open-source collaborative bookmark manager
 that solves link rot by automatically preserving every saved page as a
 screenshot, a PDF, and a single-file HTML copy. It ships with a Next.js

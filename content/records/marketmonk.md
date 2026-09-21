@@ -1,5 +1,3 @@
-# MarketMonk
-
 MarketMonk is a Flutter stock and portfolio tracker for following symbols, recording trades, and comparing investment performance across accounts. It uses Yahoo Finance data for prices and candles, while keeping the portfolio ledger in local SQLite storage rather than requiring a hosted account.
 
 ## Why it matters

@@ -1,5 +1,3 @@
-# SubnetDesk
-
 SubnetDesk is a cross-platform remote desktop application for devices that can already reach each
 other through the same LAN, a routed private network, or a VPN. It is derived from RustDesk but
 deliberately removes the public device-ID, rendezvous, relay, cloud-account, proxy, and automatic

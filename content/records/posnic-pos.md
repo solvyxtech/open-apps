@@ -1,5 +1,3 @@
-# Posnic POS
-
 Posnic POS is a desktop point-of-sale and billing app for retail shops and restaurants. The local edition runs the till and its database on hardware the shop controls, while the public source also includes setup, support, update, backup, and optional cloud-activation surfaces around that local workflow.
 
 ## What the codebase includes

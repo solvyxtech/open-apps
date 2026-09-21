@@ -1,5 +1,3 @@
-# Cake Wallet
-
 Cake Wallet is an open-source, non-custodial multi-currency crypto
 wallet for iOS, Android, macOS, Linux, and Windows. It is the most
 prominent open mobile wallet for Monero and a credible general-purpose

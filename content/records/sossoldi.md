@@ -1,5 +1,3 @@
-# Sossoldi
-
 Sossoldi is a free, MIT-licensed wealth management app built with Flutter
 by the RIP-Comm community. It exists to replace a blogger's Google Sheets
 net worth tracker with a friendly mobile and desktop client, so

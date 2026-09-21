@@ -1,5 +1,3 @@
-# UTM
-
 UTM is an iOS and macOS frontend for **QEMU**, the open-source machine
 emulator that became the de-facto standard for cross-architecture
 virtualization. The same team ships it as a Mac App Store release and

@@ -1,5 +1,3 @@
-# Keybase
-
 Keybase is an open-source, end-to-end-encrypted chat, file-sharing, and
 identity-verification platform written primarily in Go. Its distinguishing
 feature is not the cryptography itself but the identity-plus-proofs model:

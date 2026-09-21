@@ -1,5 +1,3 @@
-# EhPanda
-
 EhPanda is an unofficial iOS/iPadOS client for the E-Hentai and
 ExHentai gallery sites, built entirely in SwiftUI on top of
 Point-Free's Composable Architecture (TCA).

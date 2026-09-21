@@ -1,5 +1,3 @@
-# Roxum IDE
-
 Roxum IDE is a mobile-first code editor and mini IDE for Android,
 built in Flutter. The app pairs a Rust-backed editor engine with an
 embedded terminal, Git/GitHub tooling, LSP-driven language services,

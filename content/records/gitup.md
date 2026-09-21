@@ -1,5 +1,3 @@
-# GitUp
-
 GitUp is a native macOS Git client that treats the commit graph as a
 first-class object: a live, interactive map of every ref and every
 commit in the repository that you can drag, reorder, squash, split,

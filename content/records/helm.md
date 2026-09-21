@@ -1,5 +1,3 @@
-# Helm
-
 Helm is a macOS toolkit that collects fifteen system tools behind one window and one menu-bar item. It is MIT licensed, built with Flutter, and makes no network calls.
 
 ## What the codebase includes

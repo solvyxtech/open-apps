@@ -1,5 +1,3 @@
-# ATV-Bilibili-demo
-
 ## Why it matters
 
 ATV-Bilibili-demo explores what a third-party Bilibili client can feel like on Apple TV: large, glanceable rows of video artwork, remote-first selection, and playback designed for a ten-foot interface. It is especially useful as a study of tvOS focus-engine conventions rather than as a production-ready replacement for an official client.

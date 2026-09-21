@@ -1,5 +1,3 @@
-# Butterfly
-
 Butterfly (branded as **Linwood Butterfly**) is a Flutter note-taking app
 where the primary artifact is an infinite drawing canvas. Notes are organized
 into pages, and each page is a free-form composition of hand-drawn ink,
