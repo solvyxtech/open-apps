@@ -40,6 +40,21 @@ whyListed:
 caveats:
   - HTTPS inspection requires installing and trusting a local root certificate.
   - Source code is AGPL-3.0, while official signed downloads use a separate binary EULA.
+relations:
+  - type: alternative-to
+    to: charles-proxy
+    evidence:
+      type: repo-topic
+      url: https://github.com/RockxyApp/Rockxy
+      quote: charles-proxy-alternative
+      checkedAt: 2026-09-22
+  - type: alternative-to
+    to: proxyman
+    evidence:
+      type: repo-topic
+      url: https://github.com/RockxyApp/Rockxy
+      quote: proxyman-alternative
+      checkedAt: 2026-09-22
 source:
   type: submit
   provider: github
@@ -57,16 +72,16 @@ github:
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-20T15:34:00.574Z
+    syncedAt: 2026-09-22T00:03:37.190Z
     source: api
   repository:
     full_name: RockxyApp/Rockxy
-    stargazers_count: 1376
+    stargazers_count: 1379
     forks_count: 75
     open_issues_count: 98
     language: Swift
-    pushed_at: 2026-09-20T11:01:17Z
-    updated_at: 2026-09-20T15:22:04Z
+    pushed_at: 2026-09-21T10:33:01Z
+    updated_at: 2026-09-21T16:29:44Z
     archived: false
     disabled: false
     default_branch: main
@@ -94,7 +109,7 @@ github:
       - traffic-capture
       - web3
       - websocket
-  latestReleaseAt: 2026-09-14T03:37:02Z
+  latestReleaseAt: 2026-09-21T02:42:08Z
   homepage: https://rockxy.io
 health:
   status: mature

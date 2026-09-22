@@ -29,13 +29,13 @@ import FinalCta from "../components/grove/final-cta.astro";
 import CollectionTeaser from "../components/grove/collection-teaser.astro";
 
 import {
-  getHomePageModel,
   getCollectionTeaserModel,
+  getHomePageModel,
   loadCollections,
+  recordsToCollectionEntries,
   seoTitle,
 } from "@grove-dev/astro/server";
 import { applySort, runCollection } from "@grove-dev/core";
-import { collectionEntries } from "../lib/collection-entries";
 import { HOME_TITLE } from "../lib/seo";
 import type { IndexRecord } from "@grove-dev/core";
 import records from "@grove/generated/records.json";
@@ -48,7 +48,10 @@ const { seo } = home;
 
 // ── Collections (teaser + the trending strip) ───────────────────
 const allCollections = await loadCollections(process.cwd());
-const entries = collectionEntries((records as { records: unknown[] }).records, siteConfig);
+const entries = recordsToCollectionEntries(
+  (records as { records: unknown[] }).records as never,
+  siteConfig,
+);
 const collectionTeaser = getCollectionTeaserModel(allCollections, entries, 3);
 
 // ── Lens sectioning (Trending / New) ────────────────────────────
@@ -106,7 +109,7 @@ const Plural = itemPlural.charAt(0).toUpperCase() + itemPlural.slice(1);
       { label: "Most starred", href: `/${slug}?sort=most-starred` },
     ]}
     ctas={[
-      { label: `Browse ${itemPlural}`, href: `/${slug}`, variant: "primary" },
+      { label: `Browse ${itemPlural}`, href: `/${slug}/`, variant: "primary" },
     ]}
   />
 
@@ -117,7 +120,7 @@ const Plural = itemPlural.charAt(0).toUpperCase() + itemPlural.slice(1);
     eyebrow="Trending"
     items={trendingList}
     limit={6}
-    hrefFor={(r) => `/${slug}/${r.slug}`}
+    hrefFor={(r) => `/${slug}/${r.slug}/`}
     viewAllHref={`/collections/${TRENDING_SLUG}/`}
     viewAllLabel="View all trending"
   />
@@ -127,7 +130,7 @@ const Plural = itemPlural.charAt(0).toUpperCase() + itemPlural.slice(1);
     pathPrefix={`/${slug}`}
     itemLabelPlural={itemPlural}
     itemNoun={{ singular: itemSingular, plural: itemPlural }}
-    hrefFor={(stackSlug: string) => `/stacks/${stackSlug}`}
+    hrefFor={(stackSlug: string) => `/stacks/${stackSlug}/`}
   />
   <CategoryGrid
     categories={categories}
@@ -135,7 +138,7 @@ const Plural = itemPlural.charAt(0).toUpperCase() + itemPlural.slice(1);
     itemLabelPlural={itemPlural}
     itemNoun={{ singular: itemSingular, plural: itemPlural }}
     heading="Browse by what they do"
-    hrefFor={(categorySlug: string) => `/categories/${categorySlug}`}
+    hrefFor={(categorySlug: string) => `/categories/${categorySlug}/`}
   />
   <CollectionTeaser
     model={collectionTeaser}
@@ -151,7 +154,7 @@ const Plural = itemPlural.charAt(0).toUpperCase() + itemPlural.slice(1);
     eyebrow="New"
     items={newList}
     limit={6}
-    hrefFor={(r) => `/${slug}/${r.slug}`}
+    hrefFor={(r) => `/${slug}/${r.slug}/`}
     viewAllHref={`/${slug}?sort=recently-added`}
     viewAllLabel={`View all recently added`}
   />

@@ -1,0 +1,46 @@
+slug: open-source-granola-alternatives
+kind: curated
+title: Open Source Granola Alternatives
+description: Local-first AI meeting notetakers you can run, read and fork instead of a hosted notepad.
+subject: granola
+content: ./content/collections/open-source-granola-alternatives.md
+# Every record related to Granola joins automatically; the picks below
+# carry the verdicts and the order.
+query:
+  relatedTo:
+    type: alternative-to
+    subjects: [granola]
+entries:
+  - slug: anarlog
+    pinned: true
+    note: Best for teams that are not all on Macs. The only one here with macOS, Windows and Linux builds, no bot in the call, notes in local SQLite, and a separate choice of transcription and summary model. Its team now builds another product.
+  - slug: meetily
+    note: Best when nothing may leave the machine. The community edition transcribes with local Whisper or Parakeet and summarises through Ollama, on macOS and Windows. Needs hardware that can run a useful local model, and a paid PRO tier sits beside it.
+  - slug: humla
+    note: Best for meetings in more than one language on an Apple Silicon Mac. Pick a transcription engine per language, keep your voice and the other side on separate streams, identify speakers offline. A young, one-developer project.
+  - slug: loofah
+    note: Best if you want meetings to land in a plain Markdown vault alongside the rest of your notes. Apple Silicon only for the desktop app, with a CLI that also runs on Linux and read-only MCP access for agents.
+ranking:
+  preset: curated
+editorial:
+  introduction: Four MIT-licensed meeting notetakers that record on your own computer instead of sending a bot into the call. anarlog covers the most platforms; Meetily keeps the whole pipeline local; Humla and Loofah are the Mac-only picks.
+  selectionNote: >-
+    Desktop apps that take AI meeting notes, with an OSI-approved licence, a
+    release in the last 90 days and a downloadable build. Each record's
+    relation to Granola is either the project's own words, a repository topic,
+    or marked as the editor's match. Stars, licences and releases were checked
+    against GitHub on 22 September 2026.
+  lastReviewedAt: "2026-09-22"
+faq:
+  - q: Is there an open-source Granola alternative that runs fully offline?
+    a: Meetily's community edition is built for it — local Whisper or Parakeet for transcription and Ollama for summaries. anarlog and Humla can also run locally once you choose an on-device transcription model and a local LLM server, but both offer hosted providers too.
+  - q: Which of these work on Windows or Linux?
+    a: anarlog ships builds for macOS, Windows and Linux. Meetily ships macOS and Windows installers. Humla and the Loofah desktop app are Apple Silicon only.
+  - q: Do these apps join the call as a bot?
+    a: anarlog, Humla and Loofah record the audio on your own device, so nothing appears in the participant list.
+  - q: Are they really open source?
+    a: All four are MIT-licensed. anarlog's repository also contains commercially licensed enterprise components, and Meetily and Humla sell paid tiers — a PRO edition and cloud sync — outside the open code.
+seo:
+  index: true
+  title: Open Source Granola Alternatives – Self-Hosted & Local
+  description: anarlog, Meetily, Humla and Loofah compared — MIT-licensed meeting notetakers that record on your own computer, with local transcription and no bot in the call.

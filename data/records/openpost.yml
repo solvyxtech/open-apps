@@ -35,6 +35,14 @@ whyListed:
   - Its Go server embeds the SvelteKit interface and exposes an API, CLI, and MCP server.
 caveats:
   - Connecting social accounts requires provider OAuth configuration when self-hosted.
+relations:
+  - type: alternative-to
+    to: buffer
+    evidence:
+      type: repo-topic
+      url: https://github.com/getopenpost/openpost
+      quote: buffer-alternative
+      checkedAt: 2026-09-22
 source:
   type: submit
   provider: github
@@ -62,12 +70,12 @@ health:
 github:
   repository:
     full_name: getopenpost/openpost
-    stargazers_count: 588
+    stargazers_count: 597
     forks_count: 71
-    open_issues_count: 5
+    open_issues_count: 1
     language: TypeScript
-    pushed_at: 2026-09-20T13:37:08Z
-    updated_at: 2026-09-20T14:54:58Z
+    pushed_at: 2026-09-21T23:40:14Z
+    updated_at: 2026-09-21T23:40:19Z
     archived: false
     disabled: false
     default_branch: main
@@ -76,21 +84,17 @@ github:
       name: AGPL-3.0
     topics:
       - automation
-      - buffer-alternative
       - content-creation
-      - cross-posting
       - golang
       - mcp-server
       - self-hosted
-      - single-binary
       - social-media
       - social-media-automation
-      - social-media-management
       - social-media-scheduler
       - svelte
       - sveltekit
-  latestReleaseAt: 2026-09-20T00:27:03Z
+  latestReleaseAt: 2026-09-21T15:22:23Z
   homepage: https://openpo.st
   sync:
-    syncedAt: 2026-09-20T15:33:58.593Z
+    syncedAt: 2026-09-22T00:03:30.628Z
     source: api

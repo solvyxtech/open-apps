@@ -27,6 +27,14 @@ links:
   github: https://github.com/CapSoftware/Cap
   website: https://cap.so
 bestFor: []
+relations:
+  - type: alternative-to
+    to: loom
+    evidence:
+      type: self-described
+      url: https://github.com/CapSoftware/Cap
+      quote: Open source Loom alternative. Beautiful, shareable screen recordings.
+      checkedAt: 2026-09-22
 source:
   type: manual
   owner: CapSoftware
@@ -43,16 +51,16 @@ github:
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-20T15:33:42.872Z
+    syncedAt: 2026-09-22T00:02:35.910Z
     source: api
   repository:
     full_name: CapSoftware/Cap
-    stargazers_count: 22551
-    forks_count: 1940
-    open_issues_count: 371
+    stargazers_count: 22607
+    forks_count: 1944
+    open_issues_count: 379
     language: Rust
-    pushed_at: 2026-09-20T14:42:16Z
-    updated_at: 2026-09-20T15:20:13Z
+    pushed_at: 2026-09-21T23:35:34Z
+    updated_at: 2026-09-21T23:27:39Z
     archived: false
     disabled: false
     default_branch: main

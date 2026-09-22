@@ -43,6 +43,21 @@ projectType: real-app
 repoUrl: https://github.com/foss42/apidash
 links:
   github: https://github.com/foss42/apidash
+relations:
+  - type: alternative-to
+    to: postman
+    evidence:
+      type: self-described
+      url: https://github.com/foss42/apidash
+      quote: alternative to postman/insomnia
+      checkedAt: 2026-09-22
+  - type: alternative-to
+    to: insomnia
+    evidence:
+      type: self-described
+      url: https://github.com/foss42/apidash
+      quote: alternative to postman/insomnia
+      checkedAt: 2026-09-22
 source:
   type: github-topic
   owner: foss42
@@ -72,10 +87,10 @@ github:
     full_name: foss42/apidash
     stargazers_count: 2911
     forks_count: 1009
-    open_issues_count: 208
+    open_issues_count: 204
     language: Dart
-    pushed_at: 2026-09-14T15:41:28Z
-    updated_at: 2026-09-20T13:12:40Z
+    pushed_at: 2026-09-21T20:21:34Z
+    updated_at: 2026-09-21T20:39:21Z
     archived: false
     disabled: false
     default_branch: main
@@ -105,5 +120,5 @@ github:
   latestReleaseAt: 2023-11-29T12:07:18Z
   homepage: https://apidash.dev
   sync:
-    syncedAt: 2026-09-20T15:33:37.954Z
+    syncedAt: 2026-09-22T00:02:19.573Z
     source: api

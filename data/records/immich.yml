@@ -21,6 +21,14 @@ whyListed: []
 caveats: []
 distribution:
   channels: []
+relations:
+  - type: alternative-to
+    to: google-photos
+    evidence:
+      type: repo-topic
+      url: https://github.com/immich-app/immich
+      quote: google-photos-alternative
+      checkedAt: 2026-09-22
 source:
   type: import
   provider: github
@@ -104,15 +112,15 @@ github:
     releases_url: https://api.github.com/repos/immich-app/immich/releases{/id}
     deployments_url: https://api.github.com/repos/immich-app/immich/deployments
     created_at: 2022-02-03T15:56:27Z
-    updated_at: 2026-09-20T15:09:09Z
-    pushed_at: 2026-09-20T11:51:38Z
+    updated_at: 2026-09-21T23:55:48Z
+    pushed_at: 2026-09-21T23:51:49Z
     git_url: git://github.com/immich-app/immich.git
     ssh_url: git@github.com:immich-app/immich.git
     clone_url: https://github.com/immich-app/immich.git
     svn_url: https://github.com/immich-app/immich
     homepage: https://immich.app
     size: 324461
-    stargazers_count: 114656
+    stargazers_count: 114755
     watchers_count: 108423
     language: TypeScript
     has_issues: true
@@ -121,11 +129,11 @@ github:
     has_wiki: false
     has_pages: false
     has_discussions: true
-    forks_count: 7004
+    forks_count: 7025
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 731
+    open_issues_count: 732
     license:
       spdx_id: AGPL-3.0
       name: AGPL-3.0
@@ -204,7 +212,7 @@ github:
     openPullRequests: 231
     contributorsKnown: 955
   sync:
-    syncedAt: 2026-09-20T15:33:49.469Z
+    syncedAt: 2026-09-22T00:02:59.678Z
     source: api
   languages:
     TypeScript: 5548263
