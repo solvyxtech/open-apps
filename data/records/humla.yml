@@ -1,0 +1,134 @@
+kind: project
+name: Humla
+slug: humla
+addedAt: 2026-09-22
+description: Humla is an MIT-licensed AI meeting-notes app for Apple Silicon Macs that records mic
+  and system audio as two streams, identifies speakers offline and merges your notes with the
+  transcript.
+summary: A Tauri 2, Rust and Swift app inspired by Granola. It transcribes with local Whisper or a
+  provider chosen per language, labels speakers on-device, and answers questions about past meetings
+  with cited notes.
+sourceDescription: Open-source AI meeting notes for Mac. Records mic + system audio with no bot,
+  transcribes on-device or via OpenAI / Deepgram / Groq, identifies speakers offline, and writes
+  summaries that fuse your notes with the transcript.
+content: ./content/records/humla.md
+seo:
+  title: Humla – Open Source AI Meeting Notes for Mac
+  description: Humla records meetings on an Apple Silicon Mac with no bot, transcribes with local
+    Whisper or your own API key, and labels speakers offline. MIT-licensed and early-stage.
+category: productivity
+tags:
+  - foss-alternative
+  - offline-first
+  - desktop-app
+  - privacy
+  - notes
+stack: tauri
+platforms:
+  - macos
+  - desktop
+projectType: real-app
+repoUrl: https://github.com/michaelwilhelmsen/humla
+links:
+  github: https://github.com/michaelwilhelmsen/humla
+  website: https://humla.team
+licenses:
+  - mit
+distribution:
+  channels:
+    - type: github-releases
+      platform: macos
+      label: GitHub Releases
+      url: https://github.com/michaelwilhelmsen/humla/releases/latest
+      verified: true
+bestFor:
+  - Meetings in more than one language — the transcription engine can be set per language, including
+    a Norwegian-tuned Whisper model.
+  - Remote calls where your voice and the other side should stay separate in the transcript.
+  - Asking questions across past meetings and seeing which notes the answer came from.
+whyListed:
+  - Speaker identification runs on the Mac with no audio upload, which most hosted notetakers cannot
+    offer.
+  - Notes are reachable from Claude Code, Codex and other MCP clients.
+caveats:
+  - Early-stage — the repository was created in April 2026 and is maintained by one developer as an
+    indie project.
+  - Apple Silicon only; the release ships a single aarch64 .dmg.
+  - Not local-only by default. OpenAI, Deepgram and Groq are first-class transcription options;
+    choose local Whisper and a local LLM server to keep a meeting on the device.
+  - Sync across devices and shared workspaces are part of a separate paid Humla Cloud.
+relations:
+  - type: alternative-to
+    to: granola
+    evidence:
+      type: repo-topic
+      url: https://github.com/michaelwilhelmsen/humla
+      quote: granola-alternative
+      checkedAt: 2026-09-22
+source:
+  type: manual
+  provider: github
+  owner: michaelwilhelmsen
+  repo: humla
+  url: https://github.com/michaelwilhelmsen/humla
+curation:
+  reviewed: true
+  reviewedAt: 2026-09-22
+  reviewedBy: Open Apps curators
+  labels:
+    - new
+  lenses: []
+visibility: keep
+health:
+  status: active
+  maturity: useful
+  tier: listed
+  visibility: keep
+  cleanupCandidate: false
+  staleReason: null
+  confidence: high
+  reasons:
+    - Recent repository activity
+    - Recent release found
+    - Clear license found
+github:
+  repository:
+    full_name: michaelwilhelmsen/humla
+    stargazers_count: 289
+    forks_count: 34
+    open_issues_count: 17
+    language: Rust
+    pushed_at: 2026-09-20T22:05:52Z
+    updated_at: 2026-09-21T13:04:55Z
+    archived: false
+    disabled: false
+    default_branch: main
+    license:
+      spdx_id: MIT
+      name: MIT
+    topics:
+      - ai
+      - apple-silicon
+      - granola-alternative
+      - local-first
+      - local-llm
+      - macos
+      - meeting-minutes
+      - meeting-notes
+      - norwegian
+      - note-taking
+      - on-device
+      - open-source
+      - privacy
+      - rag
+      - rust
+      - speaker-diarization
+      - swift
+      - tauri
+      - transcription
+      - whisper
+  latestReleaseAt: 2026-09-20T22:05:56Z
+  homepage: https://humla.team
+  sync:
+    syncedAt: 2026-09-22T00:02:57.802Z
+    source: api
