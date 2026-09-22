@@ -115,8 +115,8 @@ github:
     releases_url: https://api.github.com/repos/memex-lab/memex/releases{/id}
     deployments_url: https://api.github.com/repos/memex-lab/memex/deployments
     created_at: 2026-03-11T14:04:59Z
-    updated_at: 2026-09-19T19:19:36Z
-    pushed_at: 2026-09-19T19:19:00Z
+    updated_at: 2026-09-21T12:44:26Z
+    pushed_at: 2026-09-21T19:04:45Z
     git_url: git://github.com/memex-lab/memex.git
     ssh_url: git@github.com:memex-lab/memex.git
     clone_url: https://github.com/memex-lab/memex.git
@@ -216,7 +216,7 @@ github:
     openPullRequests: 8
     contributorsKnown: 5
   sync:
-    syncedAt: 2026-09-20T15:33:54.831Z
+    syncedAt: 2026-09-22T00:40:18.471Z
     source: api
   languages:
     Dart: 7264067

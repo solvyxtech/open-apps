@@ -106,8 +106,8 @@ github:
     releases_url: https://api.github.com/repos/openfoodfacts/smooth-app/releases{/id}
     deployments_url: https://api.github.com/repos/openfoodfacts/smooth-app/deployments
     created_at: 2020-04-23T12:13:55Z
-    updated_at: 2026-09-19T20:51:03Z
-    pushed_at: 2026-09-19T19:39:02Z
+    updated_at: 2026-09-21T19:12:09Z
+    pushed_at: 2026-09-21T19:16:18Z
     git_url: git://github.com/openfoodfacts/smooth-app.git
     ssh_url: git@github.com:openfoodfacts/smooth-app.git
     clone_url: https://github.com/openfoodfacts/smooth-app.git
@@ -127,7 +127,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 670
+    open_issues_count: 668
     license:
       spdx_id: Apache-2.0
       name: Apache-2.0
@@ -203,7 +203,7 @@ github:
     openPullRequests: 30
     contributorsKnown: 116
   sync:
-    syncedAt: 2026-09-20T15:33:58.217Z
+    syncedAt: 2026-09-22T00:40:22.498Z
     source: api
   languages:
     Dart: 4048718

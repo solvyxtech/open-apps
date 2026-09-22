@@ -59,16 +59,16 @@ github:
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-20T15:33:56.297Z
+    syncedAt: 2026-09-22T00:40:20.051Z
     source: api
   repository:
     full_name: enrique-lozano/Monekin
-    stargazers_count: 254
-    forks_count: 47
-    open_issues_count: 24
+    stargazers_count: 255
+    forks_count: 48
+    open_issues_count: 25
     language: Dart
     pushed_at: 2026-09-14T20:24:31Z
-    updated_at: 2026-09-17T17:17:37Z
+    updated_at: 2026-09-21T21:58:30Z
     archived: false
     disabled: false
     default_branch: main

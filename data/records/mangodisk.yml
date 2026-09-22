@@ -95,12 +95,12 @@ health:
 github:
   repository:
     full_name: harry0703/MangoDisk
-    stargazers_count: 2925
-    forks_count: 215
-    open_issues_count: 13
+    stargazers_count: 2973
+    forks_count: 219
+    open_issues_count: 14
     language: Rust
-    pushed_at: 2026-09-18T15:18:08Z
-    updated_at: 2026-09-20T15:04:13Z
+    pushed_at: 2026-09-21T05:53:09Z
+    updated_at: 2026-09-21T23:52:58Z
     archived: false
     disabled: false
     default_branch: main
@@ -131,5 +131,5 @@ github:
   latestReleaseAt: 2026-09-18T15:18:37Z
   homepage: https://mangodisk.app/
   sync:
-    syncedAt: 2026-09-20T15:33:52.824Z
+    syncedAt: 2026-09-22T00:40:15.703Z
     source: api

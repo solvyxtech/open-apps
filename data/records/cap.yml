@@ -51,7 +51,7 @@ github:
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-22T00:02:35.910Z
+    syncedAt: 2026-09-22T00:40:01.796Z
     source: api
   repository:
     full_name: CapSoftware/Cap
@@ -59,7 +59,7 @@ github:
     forks_count: 1944
     open_issues_count: 379
     language: Rust
-    pushed_at: 2026-09-21T23:35:34Z
+    pushed_at: 2026-09-22T00:29:50Z
     updated_at: 2026-09-21T23:27:39Z
     archived: false
     disabled: false

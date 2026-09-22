@@ -59,16 +59,16 @@ github:
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-20T15:34:05.349Z
+    syncedAt: 2026-09-22T00:40:31.450Z
     source: api
   repository:
     full_name: RockxyApp/Tracexy
-    stargazers_count: 146
+    stargazers_count: 147
     forks_count: 4
     open_issues_count: 32
     language: Swift
-    pushed_at: 2026-09-20T14:08:16Z
-    updated_at: 2026-09-20T14:08:31Z
+    pushed_at: 2026-09-21T14:17:04Z
+    updated_at: 2026-09-21T14:17:10Z
     archived: false
     disabled: false
     default_branch: main
@@ -96,7 +96,7 @@ github:
       - swiftui
       - traffic-analysis
       - wireshark-alternative
-  latestReleaseAt: 2026-09-08T11:23:08Z
+  latestReleaseAt: 2026-09-21T01:33:33Z
   homepage: https://rockxy.io/tracexy
 health:
   status: active

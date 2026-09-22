@@ -138,12 +138,12 @@ github:
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-22T00:03:55.325Z
+    syncedAt: 2026-09-22T00:40:32.284Z
     source: api
   repository:
     full_name: twentyhq/twenty
     stargazers_count: 57226
-    forks_count: 9221
+    forks_count: 9222
     open_issues_count: 205
     language: TypeScript
     pushed_at: 2026-09-21T22:45:55Z

@@ -121,15 +121,15 @@ github:
     releases_url: https://api.github.com/repos/keybase/client/releases{/id}
     deployments_url: https://api.github.com/repos/keybase/client/deployments
     created_at: 2015-01-11T17:17:12Z
-    updated_at: 2026-09-17T21:00:30Z
-    pushed_at: 2026-09-19T18:10:15Z
+    updated_at: 2026-09-21T21:15:13Z
+    pushed_at: 2026-09-21T21:36:26Z
     git_url: git://github.com/keybase/client.git
     ssh_url: git@github.com:keybase/client.git
     clone_url: https://github.com/keybase/client.git
     svn_url: https://github.com/keybase/client
     homepage: ""
     size: 747562
-    stargazers_count: 9246
+    stargazers_count: 9248
     watchers_count: 9233
     language: Go
     has_issues: true
@@ -142,7 +142,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 4271
+    open_issues_count: 4283
     license:
       spdx_id: BSD-3-Clause
       name: BSD-3-Clause
@@ -237,7 +237,7 @@ github:
     contributorsKnown: 120
     openPullRequests: 202
   sync:
-    syncedAt: 2026-09-20T15:33:51.164Z
+    syncedAt: 2026-09-22T00:40:13.700Z
     source: api
   html:
     license: BSD-3-Clause

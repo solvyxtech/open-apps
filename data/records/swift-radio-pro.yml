@@ -134,7 +134,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 11
+    open_issues_count: 12
     license:
       spdx_id: MIT
       name: MIT
@@ -191,7 +191,7 @@ github:
     openPullRequests: 0
     contributorsKnown: 25
   sync:
-    syncedAt: 2026-09-20T15:34:03.477Z
+    syncedAt: 2026-09-22T00:40:29.161Z
     source: api
   languages:
     Swift: 161994

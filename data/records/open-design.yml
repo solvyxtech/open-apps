@@ -144,16 +144,16 @@ github:
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-22T00:03:28.327Z
+    syncedAt: 2026-09-22T00:40:22.060Z
     source: api
   repository:
     full_name: nexu-io/open-design
-    stargazers_count: 97471
-    forks_count: 11317
+    stargazers_count: 97474
+    forks_count: 11318
     open_issues_count: 1102
     language: TypeScript
-    pushed_at: 2026-09-21T23:58:19Z
-    updated_at: 2026-09-21T23:42:24Z
+    pushed_at: 2026-09-22T00:32:55Z
+    updated_at: 2026-09-22T00:21:30Z
     archived: false
     disabled: false
     default_branch: main

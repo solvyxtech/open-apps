@@ -131,7 +131,7 @@ github:
     mirror_url: null
     archived: false
     disabled: false
-    open_issues_count: 13
+    open_issues_count: 14
     license:
       spdx_id: GPL-2.0
       name: GPL-2.0
@@ -173,7 +173,7 @@ github:
     openPullRequests: 0
     contributorsKnown: 35
   sync:
-    syncedAt: 2026-09-20T15:33:39.191Z
+    syncedAt: 2026-09-22T00:39:56.963Z
     source: api
   languages:
     Swift: 576257

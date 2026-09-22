@@ -109,12 +109,12 @@ health:
 github:
   repository:
     full_name: zibo-chen/SubnetDesk
-    stargazers_count: 593
-    forks_count: 61
+    stargazers_count: 599
+    forks_count: 62
     open_issues_count: 10
     language: Rust
     pushed_at: 2026-09-12T03:11:30Z
-    updated_at: 2026-09-20T11:53:39Z
+    updated_at: 2026-09-21T12:47:00Z
     archived: false
     disabled: false
     default_branch: master
@@ -135,5 +135,5 @@ github:
   latestReleaseAt: 2026-08-27T16:33:43Z
   homepage: null
   sync:
-    syncedAt: 2026-09-20T15:34:03.206Z
+    syncedAt: 2026-09-22T00:40:28.768Z
     source: api

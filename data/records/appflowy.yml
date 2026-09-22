@@ -219,7 +219,7 @@ github:
     network_count: 5688
     subscribers_count: 388
   sync:
-    syncedAt: 2026-09-22T00:02:22.378Z
+    syncedAt: 2026-09-22T00:39:56.449Z
     source: api
   languages:
     Dart: 9470739

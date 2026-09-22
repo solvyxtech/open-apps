@@ -50,16 +50,16 @@ github:
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-20T15:33:52.104Z
+    syncedAt: 2026-09-22T00:40:14.946Z
     source: api
   repository:
     full_name: abdulmominsakib/localmind
-    stargazers_count: 231
-    forks_count: 40
-    open_issues_count: 6
+    stargazers_count: 235
+    forks_count: 41
+    open_issues_count: 3
     language: Dart
-    pushed_at: 2026-09-18T04:54:17Z
-    updated_at: 2026-09-20T14:36:46Z
+    pushed_at: 2026-09-21T15:15:44Z
+    updated_at: 2026-09-21T15:17:47Z
     archived: false
     disabled: false
     default_branch: main
