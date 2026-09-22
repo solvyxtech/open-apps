@@ -1,0 +1,62 @@
+# Products that records in this directory are an alternative to.
+#
+# A subject gets no page of its own. A collection that declares
+# `subject: <id>` is its hub (`/collections/open-source-<id>-alternatives/`),
+# and records point here with `relations: [{ type: alternative-to, to: <id> }]`.
+#
+# Add a subject only when at least one record has verifiable evidence for the
+# relation — the project's own description, README or a repository topic.
+# `url` is the vendor's own page; leave it out rather than guess.
+- id: loom
+  name: Loom
+  url: https://www.loom.com
+- id: salesforce
+  name: Salesforce
+  url: https://www.salesforce.com
+- id: notion
+  name: Notion
+  url: https://www.notion.com
+- id: confluence
+  name: Confluence
+  url: https://www.atlassian.com/software/confluence
+- id: evernote
+  name: Evernote
+  url: https://evernote.com
+- id: teamviewer
+  name: TeamViewer
+  url: https://www.teamviewer.com
+- id: slack
+  name: Slack
+  url: https://slack.com
+- id: postman
+  name: Postman
+  url: https://www.postman.com
+- id: insomnia
+  name: Insomnia
+  url: https://insomnia.rest
+- id: google-photos
+  name: Google Photos
+  url: https://photos.google.com
+- id: buffer
+  name: Buffer
+  url: https://buffer.com
+- id: charles-proxy
+  name: Charles Proxy
+  aliases: [Charles]
+  url: https://www.charlesproxy.com
+- id: proxyman
+  name: Proxyman
+- id: figma
+  name: Figma
+  url: https://www.figma.com
+- id: elevenlabs
+  name: ElevenLabs
+  url: https://elevenlabs.io
+- id: wispr-flow
+  name: Wispr Flow
+  aliases: [WisprFlow]
+- id: granola
+  name: Granola
+  url: https://www.granola.ai
+- id: claude-design
+  name: Claude Design

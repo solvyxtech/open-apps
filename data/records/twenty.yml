@@ -92,6 +92,14 @@ distribution:
       label: GitHub Releases
       url: https://github.com/twentyhq/twenty/releases
       verified: true
+relations:
+  - type: alternative-to
+    to: salesforce
+    evidence:
+      type: self-described
+      url: https://github.com/twentyhq/twenty
+      quote: The open alternative to Salesforce, designed for AI.
+      checkedAt: 2026-09-22
 source:
   type: github-topic
   owner: twentyhq
@@ -130,16 +138,16 @@ github:
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-20T15:34:06.012Z
+    syncedAt: 2026-09-22T00:03:55.325Z
     source: api
   repository:
     full_name: twentyhq/twenty
-    stargazers_count: 57143
-    forks_count: 9207
-    open_issues_count: 198
+    stargazers_count: 57226
+    forks_count: 9221
+    open_issues_count: 205
     language: TypeScript
-    pushed_at: 2026-09-20T15:31:51Z
-    updated_at: 2026-09-20T14:44:43Z
+    pushed_at: 2026-09-21T22:45:55Z
+    updated_at: 2026-09-22T00:00:17Z
     archived: false
     disabled: false
     default_branch: main

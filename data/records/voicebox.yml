@@ -95,6 +95,21 @@ caveats:
     (zero comments on sampled open issues).
   - The `$VOICEBOX` Solana token sparked community controversy about long-term sustainability and
     whether future sync features will become a paywall behind Voicebox Cloud.
+relations:
+  - type: alternative-to
+    to: elevenlabs
+    evidence:
+      type: self-described
+      url: https://github.com/jamiepine/voicebox
+      quote: a free and open-source alternative to ElevenLabs and WisprFlow in one app
+      checkedAt: 2026-09-22
+  - type: alternative-to
+    to: wispr-flow
+    evidence:
+      type: self-described
+      url: https://github.com/jamiepine/voicebox
+      quote: a free and open-source alternative to ElevenLabs and WisprFlow in one app
+      checkedAt: 2026-09-22
 curation:
   reviewed: true
   reviewedAt: 2026-08-21
@@ -125,16 +140,16 @@ github:
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-20T15:34:07.249Z
+    syncedAt: 2026-09-22T00:03:58.660Z
     source: api
   repository:
     full_name: jamiepine/voicebox
-    stargazers_count: 55266
-    forks_count: 6893
-    open_issues_count: 701
+    stargazers_count: 55389
+    forks_count: 6907
+    open_issues_count: 703
     language: TypeScript
     pushed_at: 2026-08-09T00:03:42Z
-    updated_at: 2026-09-20T15:33:46Z
+    updated_at: 2026-09-22T00:02:28Z
     archived: false
     disabled: false
     default_branch: main

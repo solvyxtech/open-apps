@@ -92,6 +92,21 @@ distribution:
       label: OpenDesign Cloud pricing
       url: https://open-design.ai/zh/pricing/
       verified: true
+relations:
+  - type: alternative-to
+    to: claude-design
+    evidence:
+      type: self-described
+      url: https://github.com/nexu-io/open-design
+      quote: The open-source Claude Design alternative
+      checkedAt: 2026-09-22
+  - type: alternative-to
+    to: figma
+    evidence:
+      type: repo-topic
+      url: https://github.com/nexu-io/open-design
+      quote: figma-alternative
+      checkedAt: 2026-09-22
 source:
   type: github-topic
   owner: nexu-io
@@ -129,16 +144,16 @@ github:
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-20T15:33:57.895Z
+    syncedAt: 2026-09-22T00:03:28.327Z
     source: api
   repository:
     full_name: nexu-io/open-design
-    stargazers_count: 97243
-    forks_count: 11295
-    open_issues_count: 1096
+    stargazers_count: 97471
+    forks_count: 11317
+    open_issues_count: 1102
     language: TypeScript
-    pushed_at: 2026-09-20T14:53:59Z
-    updated_at: 2026-09-20T15:28:03Z
+    pushed_at: 2026-09-21T23:58:19Z
+    updated_at: 2026-09-21T23:42:24Z
     archived: false
     disabled: false
     default_branch: main

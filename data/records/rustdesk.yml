@@ -39,6 +39,15 @@ projectType: real-app
 repoUrl: https://github.com/rustdesk/rustdesk
 links:
   github: https://github.com/rustdesk/rustdesk
+relations:
+  - type: alternative-to
+    to: teamviewer
+    evidence:
+      type: self-described
+      url: https://github.com/rustdesk/rustdesk
+      quote: An open-source remote desktop application designed for self-hosting, as an alternative to
+        TeamViewer.
+      checkedAt: 2026-09-22
 source:
   type: github-topic
   owner: rustdesk
@@ -70,16 +79,16 @@ github:
     language: null
     topics: []
   sync:
-    syncedAt: 2026-09-20T15:34:01.108Z
+    syncedAt: 2026-09-22T00:03:39.443Z
     source: api
   repository:
     full_name: rustdesk/rustdesk
-    stargazers_count: 124064
-    forks_count: 19177
-    open_issues_count: 164
+    stargazers_count: 124192
+    forks_count: 19206
+    open_issues_count: 168
     language: Rust
-    pushed_at: 2026-09-20T10:21:15Z
-    updated_at: 2026-09-20T15:14:40Z
+    pushed_at: 2026-09-21T17:31:10Z
+    updated_at: 2026-09-21T23:50:28Z
     archived: false
     disabled: false
     default_branch: master
