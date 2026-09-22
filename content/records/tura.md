@@ -1,5 +1,3 @@
-# Tura
-
 Tura is an open-source, Rust-first coding agent that ships as a
 Tauri-based desktop application, a TUI, and a CLI. The premise is
 "80% less token, better results" — Tura is built around persistent

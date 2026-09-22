@@ -1,5 +1,3 @@
-# API Dash
-
 API Dash is a cross-platform API client that lives in a single Flutter
 codebase and ships to iOS, macOS, Windows, and Linux. It targets the
 HTTP-API work that Postman and Insomnia have owned for a decade, but

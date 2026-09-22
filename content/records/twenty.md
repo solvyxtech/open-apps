@@ -1,5 +1,3 @@
-# Twenty
-
 Twenty is an open-source CRM where the schema is a runtime artifact, not a database. Every custom object, field, view, role, agent, and skill is a row in PostgreSQL metadata tables; the GraphQL schema, resolvers, and SQL queries are rebuilt per workspace on demand. That single choice — metadata-as-rows — is what makes the platform cohere: code-defined apps that publish into the same data model, an MCP server that exposes the same data model to Claude and Cursor, and a 4-service Docker stack that inherits the same model. The closest comparison isn't SuiteCRM or EspoCRM — it's a values-level cousin of Directus or Strapi, wearing a CRM-shaped UI.
 
 The headline numbers are real and they set the tone: **55.2k stars, 8.6k forks, 14,574 commits, three releases on a single day in August 2026**, $5M seed (led by Runa Capital, with angels from Front, HubSpot, Strapi, and the ex-Pipedrive CEO), YC S23, and 280+ contributors. The project is the most-funded, most-starred, and most actively shipped open-source CRM. The interesting question is whether the engineering matches the velocity.

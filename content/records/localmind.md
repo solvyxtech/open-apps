@@ -1,5 +1,3 @@
-# localmind
-
 LocalMind is a Flutter mobile chat client for talking to AI models without
 sending your conversations to anyone else's infrastructure. It speaks
 directly to user-configured servers — on-device inference, local

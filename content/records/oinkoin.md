@@ -1,5 +1,3 @@
-# Oinkoin
-
 Oinkoin is a privacy-first personal-finance tracker written in Flutter.
 Every expense, income, transfer, and recurring pattern lives in a local
 SQLite database (`sqflite` on mobile, `sqflite_common_ffi` on desktop) —

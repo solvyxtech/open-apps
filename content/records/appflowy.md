@@ -1,5 +1,3 @@
-# AppFlowy
-
 AppFlowy is a self-hostable, open-source productivity workspace that pairs a
 Notion-style block editor with database views (Grid, Board, Calendar),
 real-time multi-user collaboration, and an optional AI assistant. The data

@@ -1,5 +1,3 @@
-# Monekin
-
 Monekin is an open-source, offline-first personal finance manager
 written in Flutter from a single Dart codebase and currently shipping
 to Android (Google Play) and Windows (GitHub releases / Microsoft

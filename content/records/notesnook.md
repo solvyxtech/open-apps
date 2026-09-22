@@ -1,5 +1,3 @@
-# Notesnook
-
 Notesnook is a cross-platform note-taking application that encrypts
 every note, attachment, and notebook on the user's device before it
 leaves the device. The server only ever sees opaque ciphertext, so a

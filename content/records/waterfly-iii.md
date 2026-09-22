@@ -1,5 +1,3 @@
-# Waterfly III
-
 Waterfly III is an unofficial Flutter mobile client for the self-hosted
 Firefly III personal finance manager. It wraps Firefly III's REST API in
 a Material 3 interface aimed at people who already run their own Firefly

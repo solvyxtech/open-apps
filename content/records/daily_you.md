@@ -1,5 +1,3 @@
-# Daily You
-
 Daily You is a Flutter-built, offline-first daily journal that keeps
 every entry on-device — no accounts, no ads, no telemetry. Its tagline,
 "Every day is worth remembering," frames the app as a private space

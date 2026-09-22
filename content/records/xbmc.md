@@ -1,5 +1,3 @@
-# Kodi
-
 Kodi is a cross-platform media-center and entertainment-hub application
 that plays local and networked audio and video, scrapes online metadata
 to build a personal library, and exposes a full addon framework for

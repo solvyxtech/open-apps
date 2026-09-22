@@ -1,5 +1,3 @@
-# AI Novel Writer
-
 AI Novel Writer is an open-source desktop workspace for planning, drafting, reviewing, and revising long-form fiction.
 
 ## What it does

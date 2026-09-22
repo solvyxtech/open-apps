@@ -1,5 +1,3 @@
-# Mattermost Mobile
-
 Mattermost Mobile is the official mobile client for Mattermost, the
 open-source, self-hostable Slack alternative trusted by developer teams,
 regulated enterprises, and government agencies. It wraps the same

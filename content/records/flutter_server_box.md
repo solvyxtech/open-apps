@@ -1,5 +1,3 @@
-# Flutter Server Box
-
 Flutter Server Box (package name `server_box`, branded "ServerBox") is
 a cross-platform client for monitoring and administering remote
 servers. It packages what would normally require a desktop SSH

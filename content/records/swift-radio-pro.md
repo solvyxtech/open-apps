@@ -1,5 +1,3 @@
-# Swift-Radio-Pro
-
 Swift Radio Pro is a Swift iOS streaming-audio app template that wires up the
 complete radio-station experience: a list of stations loaded from JSON,
 live-stream playback, now-playing metadata and album art, background audio,

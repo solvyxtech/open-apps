@@ -1,5 +1,3 @@
-# Eigen
-
 Eigen is the iOS and Android client for [Artsy](https://www.artsy.net),
 the largest online art marketplace. Artsy ships it to the App Store
 and Google Play as the public face of its catalogue of artists,

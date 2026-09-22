@@ -1,5 +1,3 @@
-# Rainbow
-
 Rainbow is a mobile-first Ethereum wallet for iOS and Android, plus a
 browser extension, that covers far more than a plain ETH balance: it
 speaks to Ethereum mainnet and a wide set of L2s, surfaces an NFT

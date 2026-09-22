@@ -1,5 +1,3 @@
-# Weiyu
-
 Weiyu is a Windows desktop app for people who receive useful information in WeChat but do not want to lose it in the chat list. It reads supported local message data, stores normalized messages in SQLite, and builds date-based briefings that can be traced back to source messages.
 
 ## What it includes

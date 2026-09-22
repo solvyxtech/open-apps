@@ -1,5 +1,3 @@
-# Medito
-
 Medito is a 100% free, non-commercial meditation app for Android and iOS,
 maintained by the Medito Foundation (a registered Dutch nonprofit) and
 shipped from a single Flutter codebase. It targets both first-time

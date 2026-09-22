@@ -1,5 +1,3 @@
-# Cap
-
 Cap is an open-source screen recorder that pairs three modes in one
 Tauri-based desktop binary: Instant (record and get a share link),
 Studio (record locally and edit), and Screenshot (capture and beautify).

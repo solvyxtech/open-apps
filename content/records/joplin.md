@@ -1,5 +1,3 @@
-# Joplin
-
 Joplin is a free, open-source, cross-platform note-taking and to-do app
 that stores your notes as plain Markdown files, syncs them to a target of
 your choice, and supports end-to-end encryption on top of any sync

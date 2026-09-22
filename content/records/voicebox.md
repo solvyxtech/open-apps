@@ -1,5 +1,3 @@
-# Voicebox
-
 Voicebox is the only consumer-facing desktop app that puts the **entire voice I/O loop on a single local machine**: text-to-speech with voice cloning, voice dictation, post-processing effects, a multi-track Stories editor, and — the unusual part — a built-in Model Context Protocol server that lets any agent (Claude Code, Cursor, Cline) speak in your cloned voice. The cloud incumbents own one half of the loop each (ElevenLabs on output, WisprFlow on input); the open-source TTS projects (OpenVoice, F5-TTS, Coqui, Kokoro) ship one engine at a time. Voicebox ships the whole thing on one install.
 
 The architectural choice that makes this possible is more interesting than the feature list. Voicebox is a Tauri (Rust) desktop shell that wraps a FastAPI (Python) ML backend as a sidecar binary, and the way the two halves coordinate is the cleanest "Tauri + ML" build the open-source desktop world has produced.

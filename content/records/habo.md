@@ -1,5 +1,3 @@
-# Habo
-
 Habo is a minimalist, privacy-first habit tracker for iOS and Android
 built in Flutter by a single maintainer. It stores habits locally in
 SQLite by default, requires no account to use, and only reaches the

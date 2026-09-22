@@ -1,5 +1,3 @@
-# IceCubesApp
-
 IceCubesApp is a SwiftUI-native Mastodon client that ships to iPhone,
 iPad, Mac, and Apple Vision Pro from a single Swift-package workspace.
 It is built and maintained almost entirely by one developer (Thomas

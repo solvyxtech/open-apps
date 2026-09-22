@@ -1,5 +1,3 @@
-# SwiftHub
-
 SwiftHub is a third-party iOS client for GitHub built around RxSwift
 and the MVVM-C (Model-View-ViewModel with Coordinators) pattern,
 aimed at iOS developers who want a reference for wiring up a real

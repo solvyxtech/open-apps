@@ -1,5 +1,3 @@
-# Storypad
-
 Storypad is an open-source diary and journal app for Android, iOS, and
 macOS that ships from a single Flutter codebase. Despite the name
 suggesting a fiction-writing or Wattpad-style platform, it is a private,

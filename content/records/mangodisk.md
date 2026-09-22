@@ -1,5 +1,3 @@
-# MangoDisk
-
 MangoDisk is a local-first disk cleaner and storage analyzer for macOS and Windows. It combines the jobs that often require several utilities—finding large files, inspecting caches, locating exact duplicates, removing application leftovers, managing startup items, and repairing common system problems—while keeping the cleanup decision visible.
 
 ## What the codebase includes

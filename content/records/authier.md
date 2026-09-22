@@ -1,5 +1,3 @@
-# Authier
-
 Authier is an open-source password manager for login credentials and time-based one-time password (TOTP) secrets. Its public user-facing clients are a web vault and extensions for Chrome, Firefox, and Microsoft Edge; the Firefox extension also runs on Firefox for Android.
 
 ## What the codebase includes

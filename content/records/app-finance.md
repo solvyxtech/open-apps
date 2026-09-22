@@ -1,5 +1,3 @@
-# Fingrom (app-finance)
-
 Fingrom is an open-source, ad-free personal finance manager built with
 Flutter from a single Dart codebase and shipped to iOS, Android, macOS,
 Windows, Linux, and the Web. Its aim is to be "intuitive, efficient,

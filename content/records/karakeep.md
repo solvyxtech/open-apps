@@ -1,5 +1,3 @@
-# Karakeep
-
 Karakeep (formerly Hoarder) is a self-hostable "bookmark-everything"
 application that captures links, notes, images, and PDFs into a single
 tagged archive and runs AI tagging plus full-text and semantic search

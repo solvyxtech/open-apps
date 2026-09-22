@@ -1,5 +1,3 @@
-# SwiftTerm
-
 SwiftTerm is an Xterm/VT100-compatible terminal emulator implemented
 in Swift for iOS and macOS. It is maintained by Miguel de Icaza
 (of GNOME, Xamarin, and .NET MAUI fame) and is the most permissive

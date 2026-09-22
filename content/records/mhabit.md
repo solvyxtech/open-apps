@@ -1,5 +1,3 @@
-# mhabit (Table Habit)
-
 mhabit, marketed under the name **Table Habit**, is a Flutter-built
 micro-habit tracker that treats each habit as a colored row in a
 calendar and scores daily completion against a configurable growth

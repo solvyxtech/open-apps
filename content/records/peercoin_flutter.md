@@ -1,5 +1,3 @@
-# peercoin_flutter
-
 peercoin_flutter is a self-custodial light wallet for Peercoin and
 Peercoin Testnet, written in Flutter and shipped to Android, iOS, and
 the Web from a single Dart codebase. It is the most actively

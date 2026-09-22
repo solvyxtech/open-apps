@@ -17,6 +17,7 @@
 - id: tools
   name: Tools
   heading: Open Source Utility Apps & Tools
+  description: Open-source utilities you can run yourself — photo backup, screen recording, server monitoring, Git clients, network tools and local AI voice apps.
 
 - id: developer-tools
   name: Developer Tools
@@ -25,9 +26,12 @@
 
 - id: communication
   name: Communication
+  seoTitle: Open Source Messaging, Team Chat & Email Apps
+  description: Open-source messengers, team chat and email clients — Mattermost, Rocket.Chat, Berty, Keybase and Thunderbird — with mobile code you can build and audit.
 
 - id: health-and-fitness
   name: Health and Fitness
+  description: Open-source health apps — workout and nutrition tracking with wger, guided meditation with Medito, and food-label scanning with Open Food Facts.
 
 - id: business
   name: Business
@@ -41,6 +45,7 @@
 
 - id: media
   name: Media
+  description: Open-source audio, radio and video-diary apps for iOS and Android, with Swift and Flutter source code you can build, study and adapt.
 
 - id: entertainment
   name: Entertainment

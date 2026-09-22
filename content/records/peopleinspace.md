@@ -1,5 +1,3 @@
-# PeopleInSpace
-
 PeopleInSpace is John O'Reilly's Kotlin Multiplatform reference app for exploring who is currently in space and tracking the International Space Station. Its shared Kotlin code supports native and Compose-based clients while a small Ktor service supplies astronaut and ISS data.
 
 ## Why it matters
