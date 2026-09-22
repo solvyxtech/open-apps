@@ -6,11 +6,20 @@
  * styling, sidebar visibility, and activity-badge rules live in
  * `@grove-dev/astro`; this file only composes them.
  */
+import records from '@grove/generated/records.json';
 import siteConfig from '@grove/generated/site-config.json';
-import { getRecordDetailModel, recordDetailPaths } from '@grove-dev/astro/server';
+import {
+  getRecordContextModel,
+  getRecordDetailModel,
+  loadCollections,
+  recordDetailPaths,
+  recordsToCollectionEntries,
+} from '@grove-dev/astro/server';
 import EditorialSummary from '../../components/grove/editorial-summary.astro';
 import MarkdownBody from '../../components/grove/markdown-body.astro';
+import RelatedRecords from '../../components/grove/related-records.astro';
 import RecordHeader from '../../components/grove/record-header.astro';
+import RecordRelations from '../../components/grove/record-relations.astro';
 import RecordSidebar from '../../components/grove/record-sidebar.astro';
 import TableOfContents from '../../components/grove/table-of-contents.astro';
 import BaseLayout from '../../layouts/base-layout.astro';
@@ -30,6 +39,17 @@ if (!detail) return Astro.redirect(`/${dirSlug}`);
 const { record, name, itemSingular, seo } = detail;
 // Stack and health only exist on project records.
 const project = record.kind === 'project' ? record : undefined;
+
+// Where this page links out to: subject hubs, sibling records, and the
+// collections the record appears in.
+const context = getRecordContextModel(record, {
+  collections: await loadCollections(process.cwd()),
+  entries: recordsToCollectionEntries(
+    (records as { records: unknown[] }).records as never,
+    siteConfig,
+  ),
+  subjects: siteConfig.taxonomy?.subjects ?? [],
+});
 
 // A record the health sweep has hidden is off every list and out of
 // the sitemap; its page stays up for old links but is not indexed.
@@ -67,6 +87,7 @@ const title = recordTitle(
   <article class="py-8 sm:py-10">
     <div class="mx-auto w-full max-w-container px-5 sm:px-7">
       <RecordHeader detail={detail} />
+      <RecordRelations relations={context.relations} />
 
       <div
         class="grid grid-cols-1 gap-10 lg:grid-cols-[minmax(0,1fr)_300px] lg:gap-12"
@@ -74,7 +95,11 @@ const title = recordTitle(
         {/* Reading column: editorial context, then the article —
             no TOC panel pushing the body down. */}
         <div class="min-w-0">
-          <EditorialSummary bestFor={detail.bestFor} caveats={detail.caveats} />
+          <EditorialSummary
+            bestFor={detail.bestFor}
+            caveats={detail.caveats}
+            whyListed={detail.whyListed}
+          />
           <MarkdownBody
             recordSlug={record.slug}
             fallback={record.content ? "This record doesn't have notes yet." : undefined}
@@ -85,6 +110,8 @@ const title = recordTitle(
           <TableOfContents items={detail.toc} />
         </div>
       </div>
+
+      <RelatedRecords context={context} />
 
       {/* Metadata panels — full width below the article. */}
       <section class="mt-12 border-t border-border pt-8" aria-label="Project details">
